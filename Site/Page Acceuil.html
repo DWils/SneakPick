@@ -5,21 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceuil</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style acceuil.css">
 </head>
 <body>
+    <!-- voilà pour la partie du header, à reprendre sur chaque page qui en a un -->
     <header>
-        <div>
-            <nav>
-                <a href=""><img src="Icon/icon burger.png" alt="menu burger"></a>
-                <a href=""><img src="Icon/Icon search.png" alt="loupe"></a>
-                <input type="search" placeholder="Trouver la sneacker à votre pied...">
-                <a href="/Profil.html"><img src="Icon/icon profil.png" alt="profil"></a>
-                <a href=""><img src="Icon/icon fav.png" alt="favoris"></a>
-                <a href=""><img src="Icon/icon panier.png" alt="panier"></a>
-            </nav>
+        <div class="topcolor"></div>
+        <div class="container">
+            <div class="menu">
+                <a href="" class="menu"><span class="material-icons">menu</span></a>
+            </div>
+            <div class="searchbar">
+                <button type="submit"><span class="material-icons">search</span></button>
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="icons">
+                <a href="" class="account_circle"><span class="material-icons">account_circle</span></a>
+                <a href="" class="favorite"><span class="material-icons">favorite</span></a>
+                <a href="" class="shopping_cart"><span class="material-icons">shopping_cart</span></a>
+            </div>
         </div>
     </header>
+    <!-- fin du header -->
     <section>
         <img src="Images/Bannière acceuil/dior x travis scott air jordan.webp" alt="dior x travis scott">
         <p>Dior X Travis Scott x Air Jordan 1</p>
@@ -31,32 +40,69 @@
             <img src="Images/Sneakers page Femme/Nike Downshifter 11.png" alt="">
             <img src="Images/Sneackers page enfant/Nike Air Max 270.png" alt="">
     </section>
+    <!-- début du footer, à reprendre sur chaque base qui en a un -->
     <footer>
-        <div>
-            <img src="Icon/footer paiment.png" alt="paiment">
-            <div>
-                <p>Suivez nous</p>
-                <a href="https://www.tiktok.com/fr/"><img src="Icon/tiktok.png" alt="tiktok"></a>
-                <a href="https://twitter.com/?lang=fr"><img src="Icon/Twitter.png" alt="Twitter"></a>
-                <a href="https://www.instagram.com/"><img src="Icon/Insta.png" alt="Insta"></a>
-                <a href="https://www.facebook.com/"><img src="Icon/facebook.png" alt="facebook"></a>
+        <div class="footer">
+            <div class="paiement">
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/paypal.png"/></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/visa.png"/></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/mastercard.png"/></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/apple-pay.png"/></figure>
             </div>
-            <div>
-                <p>LA NEWSLETTER</p>
-                <input type="search" placeholder="Entrez votre adresse mail">
-                <button>Ok</button>
-                <p>Recevez toutes nos offres promotionnelles et dernières actualités</p>
-            </div>
-            <div>
-                <a href="Contact+map.html"><img src="Icon/Localisation.png" alt="Localisation"></a>
-                <p>Notre point de vente
-                    xxxxxxx
-                    4 rue des Saules
+            <div class="social_contact">
+                <div class="socials">
+                    <p>Suivez nous</p>
+                    <a href="https://www.tiktok.com/fr/" class="tiktok"><img src="https://img.icons8.com/ios-filled/50/null/tiktok--v1.png"/></a>
+                    <a href="https://twitter.com/?lang=fr" class="twitter"><img src="https://img.icons8.com/ios-filled/50/null/twitter-squared.png"/></a>
+                    <a href="https://www.instagram.com/" class="insta"><img src="https://img.icons8.com/ios-filled/50/null/instagram-new--v1.png"/></a>
+                    <a href="https://www.facebook.com/" class="fb"><img src="https://img.icons8.com/ios-filled/50/null/facebook--v1.png"/></a>
+                </div>
+                <div class="newletter">
+                    <h1>LA NEWSLETTER</h1>
+                    <div class="mailinput">
+                        <input type="mail" placeholder="Entrez votre adresse mail">
+                        <button>Ok</button>
+                    </div>
+                    <p>Recevez toutes nos offres promotionnelles et dernières actualités</p>
+                </div>
+                <div class="contact">
+                    <a href="Contact+map.html"><img src="https://img.icons8.com/ios-filled/50/null/marker.png"/></a>
+                    <p>Notre point de vente<br>
+                    xxxxxxx<br>
+                    4 rue des Saules<br>
                     59000, Lille</p>
+                </div>
             </div>
-            <img src="Icon/Footer CGV.png" alt="cgv">
-            <img src="Icon/© xxx, tous droits réservés.png" alt="©">
+            <div class="cgv">
+                <div class="cgv1">
+                    <p>
+                        Termes et conditions<br>
+                        Confidentialités et cookies<br>
+                        Droit en matières de confidentialités  
+                    </p>
+                </div>
+                <div class="cgv2">
+                    <p>
+                        Aide et contact<br>
+                        Suivre ma commande<br>
+                        Livraison<br>
+                        Retour produits<br>
+                    </p>
+                </div>
+                <div class="cgv3">
+                    <p>
+                        A propos de XXXX<br>
+                        xxxx recrute<br>
+                        Programme de fidélité<br>
+                        Raffles<br>
+                    </p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© xxx, tous droits réservés</p>
+            </div>
         </div>
     </footer>
+    <!-- fin du footer -->
 </body>
 </html>

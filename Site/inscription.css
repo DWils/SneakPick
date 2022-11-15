@@ -1,0 +1,77 @@
+body{
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    border:0 ;
+}
+.Inscription {
+    min-width: 800px;
+    min-height:350px;
+    background-color:rgb(219, 219, 219);
+    border-radius: 15px;
+    border:0 ;
+}
+
+.fname{
+    max-width: 250px;
+    min-height: 25px;
+    border-radius: 15px;
+    border:0 ;
+}
+.Identifiant{
+    max-width: 250px;
+    min-height: 25px;
+    border-radius: 15px;
+    border:0 ;
+}
+.name{
+    max-width: 250px;
+    min-height: 25px;
+    border-radius: 15px;
+    border:0 ;
+}
+.password{
+    max-width: 250px;
+    min-height: 25px;
+    border-radius: 15px;
+    border:0 ;
+}
+.tel{
+    max-width: 250px;
+    min-height: 25px;
+    border-radius: 15px;
+    border:0 ;
+}
+.naissance{
+    max-width: 250px;
+    min-height: 25px;
+    border-radius: 15px;
+    border:0 ;
+}
+.email{
+    min-width: 550px;
+    min-height: 25px;
+    border-radius: 15px;
+    border:0 ;
+    margin-bottom: 20px;
+}
+.buttom{
+    min-width: 300px;
+    min-height: 40px;
+    background-color:rgb(17, 165, 255);
+    text-align: center; color: aliceblue;
+    border-radius: 15px;
+    border:0 ;
+    margin-bottom: 50px;
+}
+h6{color:rgb(17, 165, 255)}
+
+.gauche1{margin-right: 450px;}
+.gauche2{margin-right: 450px;}
+.gauche3{margin-right: 450px;}
+
+.droite1{margin-left: 300px; margin-top: -27px;}
+.droite2{margin-left: 300px; margin-top: -27px;}
+.droite3{margin-left: 300px; margin-top: -27px;}

@@ -5,41 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="inscription.css">
 </head>
 <body>
-    <h1>Inscription</h1>
+    <div class="Inscription">
+        <h1>Inscription</h1>
 
-    <h6>Afin de créer votre compte veillez compléter ses information </h6>
-    <hr>
-
-    <form method="get">
-        <label for="fname">Votre prénom :
-            <input type="text" name="fname" value="prénom">
-        </label>
-        <label for="Identifiant">Identifiant :
-            <input type="text" name="Identifiant" value="">
-        </label><br>
+        <h6>Afin de créer votre compte veillez compléter ses information </h6>
+        <hr>
 <br>
-        <label for="name">Votre Nom :
-            <input type="text" name="name" value="Nom de famille">
-        </label>
-        <label for="Mot de passe">Mot de passe :
-            <input type="text" name="Mot de passe" placeholder="password">
-        </label><br>
+        <form method="get">
+            <div class="gauche1"><label for="fname">Votre prénom :
+                <input type="text" name="fname" value="prénom" class="fname">
+            </label></div>
+            <div class="droite1"><label for="Identifiant">Identifiant :
+                <input type="text" name="Identifiant" value="" class="Identifiant">
+            </label><br></div>
 <br>
-        <label for="tel">Votre numéro de téléphone :
-            <input type="text" name="tel">
-        </label>
-        <label for="name">Votre e-mail :
-            <input type="email" name="e-mail">
-        </label><br>
+            <div class="gauche2"><label for="name">Votre Nom : 
+                <input type="text" name="name" value="Nom de famille" class="name">
+            </label></div>
+            <div class="droite2"><label for="Mot de passe">Mot de passe :
+                <input type="text" name="Mot de passe" placeholder="password" class="password">
+            </label><br></div>
 <br>
-        <label for="Date de naissance">Date de naissance :
-        <input type="date" name="Date de naissance" value="jj/mm/aaaa">
-        </label>
-        <lable>
-            <a href="Page Acceuil.html"><input type="submit" value="Sauvegarder"></a>
-        </label>
+            <div class="gauche3"><label for="Date de naissance">Date de naissance :
+                <input type="date" name="Date de naissance" value="jj/mm/aaaa" class="naissance">
+            </label></div>
+            <div class="droite3"><label for="tel">Votre numéro de téléphone :
+                <input type="text" name="tel" class="tel">
+            </label></div>
+<br>
+<br>
+            <label for="name">Votre e-mail :
+                <input type="email" name="e-mail" class="email">
+            </label><br>
+<br>
+            <lable>
+                <a href="Page Acceuil.html"><input type="submit" value="Sauvegarder" class="buttom"></a>
+            </label>
+        </div>
 
 
 </body>

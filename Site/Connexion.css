@@ -1,0 +1,41 @@
+body{
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    border:0 ;
+}
+.div1{
+    min-width: 800px;
+    min-height:250px;
+    background-color:rgb(219, 219, 219);
+    border-radius: 15px;
+    border:0 ;
+
+}
+
+.buttom{
+    min-width: 250px;
+    min-height: 25px;
+    background-color:rgb(17, 165, 255);
+    text-align: center; color: aliceblue;
+    border-radius: 15px;
+    border:0 ;
+}
+
+.Identifiant{
+    min-width: 400px;
+    min-height: 25px;
+    border-radius: 15px;
+    border:0 ;
+}
+
+.Password{
+    min-width: 400px;
+    min-height: 25px;
+    border-radius: 15px;
+    border:0 ;
+}
+
+

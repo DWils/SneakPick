@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceuil</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="style acceuil.css">
+    <title>Page d'acceuil</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- voilà pour la partie du header, à reprendre sur chaque page qui en a un -->
@@ -29,17 +28,20 @@
         </div>
     </header>
     <!-- fin du header -->
-    <section>
-        <img src="Images/Bannière acceuil/dior x travis scott air jordan.webp" alt="dior x travis scott">
-        <p>Dior X Travis Scott x Air Jordan 1</p>
-        <button><img src="Icon/clickSlideLeft.png" alt="clickSlideLeft"></button>
-        <button><img src="Icon/clickSlideRight.png" alt="clickSlideRight droite"></button>
-    </section>
-    <section>
-            <img src="Images/Sneakers page Homme/Nike Air Max 95.png" alt="">
-            <img src="Images/Sneakers page Femme/Nike Downshifter 11.png" alt="">
-            <img src="Images/Sneackers page enfant/Nike Air Max 270.png" alt="">
-    </section>
+
+    <!-- début slider -->
+    <div class="backgroundslider">
+        <div class="slider">
+            <div class="slides">
+            <div class="slide"><img src="Images/Bannière acceuil/dior x travis scott air jordan.jpg" alt=""></div>
+            <div class="slide"><img src="Images/Bannière acceuil/Neighborhood x adidas Iniki Runner.jpg" alt=""></div>
+            <div class="slide"><img src="Images/Bannière acceuil/PUMA x AMI Slipstream.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fin du slider -->
+
     <!-- début du footer, à reprendre sur chaque base qui en a un -->
     <footer>
         <div class="footer">
@@ -51,11 +53,15 @@
             </div>
             <div class="social_contact">
                 <div class="socials">
-                    <p>Suivez nous</p>
-                    <a href="https://www.tiktok.com/fr/" class="tiktok"><img src="https://img.icons8.com/ios-filled/50/null/tiktok--v1.png"/></a>
-                    <a href="https://twitter.com/?lang=fr" class="twitter"><img src="https://img.icons8.com/ios-filled/50/null/twitter-squared.png"/></a>
-                    <a href="https://www.instagram.com/" class="insta"><img src="https://img.icons8.com/ios-filled/50/null/instagram-new--v1.png"/></a>
-                    <a href="https://www.facebook.com/" class="fb"><img src="https://img.icons8.com/ios-filled/50/null/facebook--v1.png"/></a>
+                    <div class="p"><p>Suivez nous</p></div>
+                        <div class="social1">
+                            <a href="https://www.tiktok.com/fr/" class="tiktok"><img src="https://img.icons8.com/ios-filled/50/null/tiktok--v1.png"/></a>
+                            <a href="https://www.facebook.com/" class="fb"><img src="https://img.icons8.com/ios-filled/50/null/facebook--v1.png"/></a>
+                        </div>
+                        <div class="social2">
+                            <a href="https://twitter.com/?lang=fr" class="twitter"><img src="https://img.icons8.com/ios-filled/50/null/twitter-squared.png"/></a>
+                            <a href="https://www.instagram.com/" class="insta"><img src="https://img.icons8.com/ios-filled/50/null/instagram-new--v1.png"/></a>
+                        </div>
                 </div>
                 <div class="newletter">
                     <h1>LA NEWSLETTER</h1>
@@ -66,11 +72,14 @@
                     <p>Recevez toutes nos offres promotionnelles et dernières actualités</p>
                 </div>
                 <div class="contact">
-                    <a href="Contact+map.html"><img src="https://img.icons8.com/ios-filled/50/null/marker.png"/></a>
+                    <div class="contactin">
+                        <a href="Contact+map.html"><img src="https://img.icons8.com/ios-filled/50/null/marker.png"/></a>
                     <p>Notre point de vente<br>
                     xxxxxxx<br>
                     4 rue des Saules<br>
                     59000, Lille</p>
+                    </div>
+                    
                 </div>
             </div>
             <div class="cgv">

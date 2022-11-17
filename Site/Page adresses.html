@@ -29,6 +29,7 @@
     </header>
     <!-- fin du header -->
 
+    <!-- section renseignements -->
     <section class="bloc">
         <div class="moncompte">
             <div class="h2compte">
@@ -41,37 +42,41 @@
             </div>
         </div>
         <div class="inputinfos">
-            <h1>Mes adresses</h1>
-            <h2>Adresse de facturation</h2>
+            <h1>Mes renseignements</h1>
+            <h2>Informations personnelles</h2>
             <hr>
-            <div class="infoperso">       
-                <div class="adresse1">
-                    <label for="adresse">Nom et numéro de rue</label>
-                    <input type="text" class="adresse">
-                    <label for="CP">Code Postal</label>
-                    <input type="text" class="CP">
-                    <label for="ville">Ville</label>
-                    <input type="text" class="ville">
+            <div class="infoperso"> 
+                <div class="info1">
+                    <label for="prénom">Prénom :</label>
+                    <input type="text" class="prénom" placeholder="Jean">
+                    <label for="nom">Nom de famille :</label>
+                    <input type="text" class="nom" placeholder="Bon">
+                </div>
+                <div class="info2">
+                    <label for="date">Date de naissance :</label>
+                    <input type="date" class="date">
+                    <label for="tel">Numéro de téléphone :</label>
+                    <input type="tel" class="tel" placeholder="0601020304">
                 </div>
                 <div>
                     <button type="submit">Sauvegarder</button>
                 </div>
-            </div>  
-            <h2>Adresse de livraison</h2>
+            </div>
+            <h2>Infos de connexion</h2>
             <hr>
-            <div class="adresse2">
-                <div>
-                    <label for="adresse">Nom et numéro de rue</label>
-                    <input type="text" class="adresse">
-                    <label for="CP">Code Postal</label>
-                    <input type="text" class="CP">
-                    <label for="ville">Ville</label>
-                    <input type="text" class="ville">
+            <div class="infoco">
+                <div class="info3">
+                    <label for="email">Adresse E-mail :</label>
+                    <input type="email" class="email" placeholder="jean.bon@gmail.com">
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" class="password" placeholder="Mot de passe">
                 </div>
                 <button type="submit">Sauvegarder</button>
             </div>
         </div>
     </section>
+
+    <!-- fin section renseignements -->
 
     <!-- début du footer, à reprendre sur chaque base qui en a un -->
     <footer>

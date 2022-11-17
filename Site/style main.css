@@ -99,91 +99,136 @@
 /* fin slider */
 
 /* partie profil utilisateur et toutes les pages qui vont avec */
-/* partie gauche avec liste */
+/* bloc gauche */
 .bloc{
-    display: flex;
-    justify-content: center;
-    padding: 40px;
+    display:flex ;
+    justify-content: flex-start;
+    margin-left: 400px;
 }
-.bloc input{
-    border-radius: 15px;
-    border: none;
-    outline: none;
-    padding-left: 5px;
-    text-align: left;
-}
-.moncompte{
-    flex-direction: column;
-    margin-right: 50px;
-}
-.h2compte{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    padding: 50px;
-}
-.liste{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-left: 50px;
-}
-/* partie droite avec les inputs */
+    .bloc hr{
+        margin: 15px 0;
+    }
+    .moncompte{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+    }
+        .h2compte{
+            margin-bottom: 150px;
+        }
+            .liste{
+                display: flex;
+                flex-direction: column;
+                margin-left: 25px;
+            }
+                .liste a{
+                    text-decoration: none;
+                    color: black;
+                    margin-bottom: 10px;
+                }
+/* fin bloc gauche */
+/* bloc renseignements */
 .inputinfos{
     display: flex;
-    flex-direction: column;
-    background-color: lightgrey;
-    border-radius: 37px;
     padding: 25px;
-    width: 487px;
-    height: 534px;
-}
-.inputinfos button{
-    background:DeepSkyBlue;
-    padding: 10px;
-    margin: 15px 0;
-    max-width: fit-content;
-    border: none;
-    border-radius: 15px;
-    color: white;
-}
-.inputinfos button:hover{
-    opacity: 0.75;
-    cursor: pointer;
-}
-.inputinfos h1{
-    margin-bottom: 20px;
-}
-.inputinfos h2{
-    margin-top: 20px;
-}
-.bloc hr{
-    max-width: 500px;
-    margin-bottom: 20px;
-    background-color: black;
-}
-.infoperso{
-    display: flex;
     flex-direction: column;
+    width: 30%;
+    background: lightgrey;
+    border-radius: 37px;
+    margin-top: 150px
 }
-.infoperso input{
-    margin-bottom: 10px;
-}
-.infoco{
-    display: flex;
-    flex-direction: column;
-}
-.infoco input{
-    margin-bottom: 10px;
-    max-width: fit-content;
-}
+    .infoperso{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+    }
+        .info1{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+            .info1 label{
+                margin-bottom: 2px;
+            }
+            .info1 input{
+                margin-bottom: 4px;
+            }
+        .info2{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+        .infoperso button{
+            margin: 10px;
+            padding: 5px;
+            border-radius: 15px;
+            border: none;
+            outline: none;
+            background: deepskyblue;
+            color: white;
+            text-align: center;
+        }
+        .infoperso button:hover{
+            opacity: 0.75;
+            cursor: pointer;
+        }
+    .infoco{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .info3{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+            .info3 label{
+                margin-bottom: 2px;
+            }
+            .info3 input{
+                margin-bottom: 4px;
+            }
+        .infoco button{
+            margin: 10px;
+            padding: 5px;
+            border-radius: 15px;
+            border: none;
+            outline: none;
+            background: deepskyblue;
+            color: white;
+            text-align: center;
+        }
+        .infoco button:hover{
+            opacity: 0.75;
+            cursor: pointer;
+        }
+/* fin bloc renseignements */
 
-
+/* bloc adresses */
+        .adresse1{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+            .adresse1 label{
+                margin-bottom: 2px;
+            }
+            .adresse1 input{
+                margin-bottom: 4px;
+            }
+        .adresse2{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+            .adresse2 label{
+                margin-bottom: 2px;
+            }
+            .adresse2 input{
+                margin-bottom: 4px;
+            }
+/* fin bloc adresses */
 /* fin partie utilisateur */
-
-/* Partie adresses */
-
-/* Fin partie adresses */
 
 
 /* Partie du style pour le footer */
@@ -290,9 +335,8 @@
 .divmap iframe{
     margin-bottom: 25px;
 }
-
-
 /* fin partie page contact */
+
 
 /* partie concernant les réseaux sociaux ainsi que Newletters et contact */
 
@@ -338,6 +382,7 @@
     outline: none;
     text-align: center;
     padding: 5px;
+    background: whitesmoke;
 }
 .mailinput button{
     align-self: center; 

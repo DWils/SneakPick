@@ -425,3 +425,11 @@
     display: flex;
     justify-content: center;
 }
+
+/* partie area contact */
+
+.Commentaire{
+    text-align: center;
+    height: 200px;
+    width: 500px;
+}

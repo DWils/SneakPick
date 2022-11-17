@@ -34,9 +34,10 @@
     height: 20px;
     align-self: center;
     border-radius: 37px;
+    padding-left: 5px;
     border : none;
     outline: none;
-    text-align: center;
+    text-align: left;
 }
 .searchbar button{
     align-self: center; 
@@ -98,17 +99,92 @@
 /* fin slider */
 
 /* partie profil utilisateur et toutes les pages qui vont avec */
-
-.
+/* partie gauche avec liste */
+.bloc{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.bloc input{
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    text-align: left;
+}
+.moncompte{
+    flex-direction: column;
+    margin-right: 50px;
+}
+.h2compte{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.liste{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 50px;
+}
+/* partie droite avec les inputs */
+.inputinfos{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    border-radius: 37px;
+    padding: 25px;
+    width: 487px;
+    height: 534px;
+}
+.inputinfos button{
+    background:DeepSkyBlue;
+    padding: 10px;
+    margin: 15px 0;
+    max-width: fit-content;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.inputinfos h1{
+    margin-bottom: 20px;
+}
+.inputinfos h2{
+    margin-top: 20px;
+}
+.bloc hr{
+    max-width: 500px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+.infoperso{
+    display: flex;
+    flex-direction: column;
+}
+.infoperso input{
+    margin-bottom: 10px;
+}
+.infoco{
+    display: flex;
+    flex-direction: column;
+}
+.infoco input{
+    margin-bottom: 10px;
+    max-width: fit-content;
+}
 
 
 /* fin partie utilisateur */
 
+/* Partie adresses */
+
+/* Fin partie adresses */
 
 
 /* Partie du style pour le footer */
 .footer{
-    margin-top: 20px;
+    margin-top: 20px;  
     padding: 0;
     display: flex;
     flex-direction:column ;
@@ -143,7 +219,7 @@
 .socials{
     display: flex;
     flex-direction: column;
-    justify-content:center ;
+    justify-content:center;
     align-items: center;
 }
 

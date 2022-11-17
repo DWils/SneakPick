@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'acceuil</title>
+    <title>Mon compte</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="style main.css">
 </head>
@@ -29,39 +29,47 @@
     </header>
     <!-- fin du header -->
 
-    <section class="blocgauche">
+    <section class="bloc">
         <div class="moncompte">
-            <div class="menucompte">
+            <div class="h2compte">
                 <h2>Mon compte</h2>
             </div>
             <div class="liste">
-                    <a href="">Mes renseignements</a>
-                    <a href="">Mes adresses</a> 
-                    <a href="">Historiques des commandes</a> 
+                <a href="Page Mes renseignements.html" class="renseignements">Mes renseignements</a>
+                <a href="Page Mes renseignements.html" class="adresses">Mes adresses</a> 
+                <a href="Page Mes commandes.html" class="commmandes">Historiques des commandes</a>  
             </div>
         </div>
         <div class="inputinfos">
-            <h1>Mes renseignements</h1>
-            <h2>Informations personnelles</h2>
-            <hr>            
-            <label for="prénom">Prénom</label>
-            <input type="text" class="prénom" placeholder="Prénom">
-            <label for="nom">Nom de famille</label>
-            <input type="text" class="nom" placeholder="Nom de famille">
-            <label for="date">Date de naissance</label>
-            <input type="date" class="date">
-            <label for="tel">Numéro de téléphone</label>
-            <input type="tel" class="tel" placeholder="Numéro de téléphone">
-            <button type="submit">Sauvegarder</button>
-
-            <h2>Infos de connexion</h2>
+            <h1>Mes adresses</h1>
+            <h2>Adresse de facturation</h2>
             <hr>
-            <label for="email">Adresse E-mail</label>
-            <label for="password">Mot de passe</label>
-            <input type="email" class="email">
-            <input type="password" class="password">
-            
-            
+            <div class="infoperso">       
+                <div class="adresse1">
+                    <label for="adresse">Nom et numéro de rue</label>
+                    <input type="text" class="adresse">
+                    <label for="CP">Code Postal</label>
+                    <input type="text" class="CP">
+                    <label for="ville">Ville</label>
+                    <input type="text" class="ville">
+                </div>
+                <div>
+                    <button type="submit">Sauvegarder</button>
+                </div>
+            </div>  
+            <h2>Adresse de livraison</h2>
+            <hr>
+            <div class="adresse2">
+                <div>
+                    <label for="adresse">Nom et numéro de rue</label>
+                    <input type="text" class="adresse">
+                    <label for="CP">Code Postal</label>
+                    <input type="text" class="CP">
+                    <label for="ville">Ville</label>
+                    <input type="text" class="ville">
+                </div>
+                <button type="submit">Sauvegarder</button>
+            </div>
         </div>
     </section>
 

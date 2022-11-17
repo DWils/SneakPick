@@ -20,36 +20,42 @@ body{
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
 }
 .Identifiant{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
 }
 .name{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
 }
 .password{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
 }
 .tel{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
 }
 .naissance{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
 }
 .email{
     min-width: 550px;
@@ -57,6 +63,7 @@ body{
     border-radius: 15px;
     border:0 ;
     margin-bottom: 20px;
+    outline-style: none;
 }
 .buttom{
     min-width: 300px;

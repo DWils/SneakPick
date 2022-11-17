@@ -291,7 +291,6 @@
 }
 
 
-
 /* fin partie page contact */
 
 /* partie concernant les réseaux sociaux ainsi que Newletters et contact */
@@ -385,9 +384,6 @@
 /* partie area contact */
 
 .Commentaire{
-    border: solid;
-    border-radius: 15px;
-    border-color: rgb(158, 13, 13);
     text-align: center;
     height: 200px;
     width: 500px;

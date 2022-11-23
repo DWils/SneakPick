@@ -286,6 +286,8 @@
     max-width: fit-content;
     margin-bottom: 25px;
     margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .bloccontact label{
     font-weight: bolder;
@@ -308,9 +310,13 @@
     margin-bottom: 50px;
 }
 .divtext textarea{
+    min-width: 650px;
+    padding: 25px;
     border: none;
     outline: none;
+    resize: none;
     background: whitesmoke;
+    border-radius: 10px;
 }
 .divtext .submit{
     background:DeepSkyBlue;

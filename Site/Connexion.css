@@ -13,6 +13,8 @@ body{
     background-color:rgb(219, 219, 219);
     border-radius: 15px;
     border:0 ;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
@@ -23,6 +25,12 @@ body{
     text-align: center; color: aliceblue;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
+}
+
+.buttom:hover{
+    cursor: pointer;
+    opacity: 0.75;
 }
 
 .Identifiant{
@@ -30,6 +38,9 @@ body{
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .Password{
@@ -37,6 +48,9 @@ body{
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 

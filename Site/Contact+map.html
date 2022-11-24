@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Contact + map.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style main.css">
 </head>
 <body>
     <header>
@@ -25,67 +27,113 @@
             </div>
         </div>
     </header>
-    <div>
-        <h1>Contact</h1>
-        <br>
-        <br>
+
+
+
+
+    <div class="bloccontact">
+        <div class="divcontact">
+            <h1>Contact</h1>
+
+            <h3>Afin de mieux pouvoir vous répondre veillez nous indiquer ses quelques informations</h3>
+            <div class="inputcontact">
+                <div>
+                    <label for="prénom">Prénom:</label>
+                    <input type="text" class="prénom" placeholder="Prénom">
+                </div>
+                <div>
+                    <label for="email">Adresse E-mail:</label>
+                    <input type="email" class="email" placeholder="E-mail">
+                </div>
             </div>
-            <h4>Afin de mieux pouvoir vous répondre <br>
-            veillez nous indiquer ses quelques informations</h4>
-        <br>
-        <br>
-            <label for="Name">
-            <input type="text" name="Name" value="Votre Nom:" class="info">
-            </label><br>
-        <br>
-            <label for="E-mail">
-            <input type="text" name="E-mail" value="Votre E-mail:" class="info">
-            </label>
-        <br>
-        <br>
-        <br>
-            <h4>Quelle est la nature de votre problême ?</h4>
-        <br>
-            <textarea name="message" rows="5" cols="50" class="Commentaire">Ajouter un commentaire.</textarea>
-            <br>
-            </label>
-                <input type="submit" value="Envoyer" class="submit">
-            </label>
         </div>
-        <br>
-        <div>
+        <div class="divtext">
+            <h3>Quelle est la nature de votre problème ?</h3>
+
+            <textarea name="message" rows="5" cols="50" class="Commentaire" placeholder="Entrez votre message ici."></textarea>
+            <a href="Contact+map.html"><button class="submit">Envoyer</button></a>
+        </div>        
+
+        <div class="divmap">
             <h1>Carte de nos Magasin</h1>
-            <br>
+            
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.4778141379147!2d3.0616651158728043!3d50.636816681799566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5887c0136b9%3A0x836a6d7bd2c18c65!2sPl.%20du%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%2059800%20Lille!5e0!3m2!1sfr!2sfr!4v1668078191284!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <br>
-            <br>
-            <a href="Page Acceuil.html">Retour à l'acceuil </a>
+            
+
+            <a href="Page Acceuil.html" class="backhomebtn"><span class="material-symbols-outlined">home</span><br>Retour a l'acceuil</a>
         </div>
+    </div>
+
+
+
+
         <footer>
-            <div>
-                <img src="Icon/footer paiment.png" alt="paiment">
-                <div>
-                    <p>Suivez nous</p>
-                    <a href="https://www.tiktok.com/fr/"><img src="Icon/tiktok.png" alt="tiktok"></a>
-                    <a href="https://twitter.com/?lang=fr"><img src="Icon/Twitter.png" alt="Twitter"></a>
-                    <a href="https://www.instagram.com/"><img src="Icon/Insta.png" alt="Insta"></a>
-                    <a href="https://www.facebook.com/"><img src="Icon/facebook.png" alt="facebook"></a>
+            <div class="footer">
+                <div class="paiement">
+                    <figure><img src="https://img.icons8.com/ios-filled/100/null/paypal.png"/></figure>
+                    <figure><img src="https://img.icons8.com/ios-filled/100/null/visa.png"/></figure>
+                    <figure><img src="https://img.icons8.com/ios-filled/100/null/mastercard.png"/></figure>
+                    <figure><img src="https://img.icons8.com/ios-filled/100/null/apple-pay.png"/></figure>
                 </div>
-                <div>
-                    <p>LA NEWSLETTER</p>
-                    <input type="search" placeholder="Entrez votre adresse mail">
-                    <button>Ok</button>
-                    <p>Recevez toutes nos offres promotionnelles et dernières actualités</p>
-                </div>
-                <div>
-                    <a href="Contact+map.html"><img src="Icon/Localisation.png" alt="Localisation"></a>
-                    <p>Notre point de vente
-                        xxxxxxx
-                        4 rue des Saules
+                <div class="social_contact">
+                    <div class="socials">
+                        <div class="p"><p>Suivez nous</p></div>
+                            <div class="social1">
+                                <a href="https://www.tiktok.com/fr/" class="tiktok"><img src="https://img.icons8.com/ios-filled/50/null/tiktok--v1.png"/></a>
+                                <a href="https://www.facebook.com/" class="fb"><img src="https://img.icons8.com/ios-filled/50/null/facebook--v1.png"/></a>
+                            </div>
+                            <div class="social2">
+                                <a href="https://twitter.com/?lang=fr" class="twitter"><img src="https://img.icons8.com/ios-filled/50/null/twitter-squared.png"/></a>
+                                <a href="https://www.instagram.com/" class="insta"><img src="https://img.icons8.com/ios-filled/50/null/instagram-new--v1.png"/></a>
+                            </div>
+                    </div>
+                    <div class="newletter">
+                        <h1>LA NEWSLETTER</h1>
+                        <div class="mailinput">
+                            <input type="mail" placeholder="Entrez votre adresse mail">
+                            <button>Ok</button>
+                        </div>
+                        <p>Recevez toutes nos offres promotionnelles et dernières actualités</p>
+                    </div>
+                    <div class="contact">
+                        <div class="contactin">
+                            <a href="Contact+map.html"><img src="https://img.icons8.com/ios-filled/50/null/marker.png"/></a>
+                        <p>Notre point de vente<br>
+                        xxxxxxx<br>
+                        4 rue des Saules<br>
                         59000, Lille</p>
+                        </div>
+                        
+                    </div>
                 </div>
-                <img src="Icon/Footer CGV.png" alt="cgv">
-                <img src="Icon/© xxx, tous droits réservés.png" alt="©">
+                <div class="cgv">
+                    <div class="cgv1">
+                        <p>
+                            Termes et conditions<br>
+                            Confidentialités et cookies<br>
+                            Droit en matières de confidentialités  
+                        </p>
+                    </div>
+                    <div class="cgv2">
+                        <p>
+                            Aide et contact<br>
+                            Suivre ma commande<br>
+                            Livraison<br>
+                            Retour produits<br>
+                        </p>
+                    </div>
+                    <div class="cgv3">
+                        <p>
+                            A propos de XXXX<br>
+                            xxxx recrute<br>
+                            Programme de fidélité<br>
+                            Raffles<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© xxx, tous droits réservés</p>
+                </div>
             </div>
         </footer>
 </body>

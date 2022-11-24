@@ -34,9 +34,10 @@
     height: 20px;
     align-self: center;
     border-radius: 37px;
+    padding-left: 5px;
     border : none;
     outline: none;
-    text-align: center;
+    text-align: left;
 }
 .searchbar button{
     align-self: center; 
@@ -96,13 +97,148 @@
 /* fin slider */
 
 /* partie profil utilisateur et toutes les pages qui vont avec */
+<<<<<<< HEAD
 .
 
 /* fin partie utilisateur */
 
+=======
+/* bloc gauche */
+.bloc{
+    display:flex ;
+    justify-content: flex-start;
+    margin-left: 400px;
+}
+    .bloc hr{
+        margin: 15px 0;
+    }
+    .moncompte{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+    }
+        .h2compte{
+            margin-bottom: 150px;
+        }
+            .liste{
+                display: flex;
+                flex-direction: column;
+                margin-left: 25px;
+            }
+                .liste a{
+                    text-decoration: none;
+                    color: black;
+                    margin-bottom: 10px;
+                }
+/* fin bloc gauche */
+/* bloc renseignements */
+.inputinfos{
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    width: 30%;
+    background: lightgrey;
+    border-radius: 37px;
+    margin-top: 150px
+}
+    .infoperso{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+    }
+        .info1{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+            .info1 label{
+                margin-bottom: 2px;
+            }
+            .info1 input{
+                margin-bottom: 4px;
+            }
+        .info2{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+        .infoperso button{
+            margin: 10px;
+            padding: 5px;
+            border-radius: 15px;
+            border: none;
+            outline: none;
+            background: deepskyblue;
+            color: white;
+            text-align: center;
+        }
+        .infoperso button:hover{
+            opacity: 0.75;
+            cursor: pointer;
+        }
+    .infoco{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .info3{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+            .info3 label{
+                margin-bottom: 2px;
+            }
+            .info3 input{
+                margin-bottom: 4px;
+            }
+        .infoco button{
+            margin: 10px;
+            padding: 5px;
+            border-radius: 15px;
+            border: none;
+            outline: none;
+            background: deepskyblue;
+            color: white;
+            text-align: center;
+        }
+        .infoco button:hover{
+            opacity: 0.75;
+            cursor: pointer;
+        }
+/* fin bloc renseignements */
+
+/* bloc adresses */
+        .adresse1{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+            .adresse1 label{
+                margin-bottom: 2px;
+            }
+            .adresse1 input{
+                margin-bottom: 4px;
+            }
+        .adresse2{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+            .adresse2 label{
+                margin-bottom: 2px;
+            }
+            .adresse2 input{
+                margin-bottom: 4px;
+            }
+/* fin bloc adresses */
+/* fin partie utilisateur */
+
+
+>>>>>>> e54d166235bdaf580dfd4a5c10d5cf2f1b7a4ecb
 /* Partie du style pour le footer */
 .footer{
-    margin-top: 20px;
+    margin-top: 20px;  
     padding: 0;
     display: flex;
     flex-direction:column ;
@@ -119,6 +255,99 @@
 .paiement img{
     margin: 0 20px
 }
+
+/* partie page contact+map */
+.bloccontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divcontact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 50%;
+}
+.bloccontact h1{
+    min-width: 400px;
+    border: none;
+    outline: none;
+    background: lightgrey;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 5px;
+    max-width: fit-content;
+}
+.inputcontact label{
+    margin-right: 10px;
+}
+.inputcontact input{
+    border: none;
+    outline: none;
+    background: whitesmoke;
+    max-width: fit-content;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bloccontact label{
+    font-weight: bolder;
+    color: black;
+    align-self: flex-start;
+}
+.bloccontact h3{
+    border: none;
+    outline: none;
+    background: lightgrey;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.divtext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.divtext textarea{
+    min-width: 650px;
+    padding: 25px;
+    border: none;
+    outline: none;
+    resize: none;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.divtext .submit{
+    background:DeepSkyBlue;
+    padding: 10px;
+    margin: 15px 0;
+    max-width: fit-content;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.divtext .submit:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.divmap{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 50%;
+}
+.divmap iframe{
+    margin-bottom: 25px;
+}
+/* fin partie page contact */
+
 
 /* partie concernant les réseaux sociaux ainsi que Newletters et contact */
 
@@ -137,7 +366,7 @@
 .socials{
     display: flex;
     flex-direction: column;
-    justify-content:center ;
+    justify-content:center;
     align-items: center;
 }
 
@@ -164,6 +393,7 @@
     outline: none;
     text-align: center;
     padding: 5px;
+    background: whitesmoke;
 }
 .mailinput button{
     align-self: center; 
@@ -206,4 +436,20 @@
 .copyright{
     display: flex;
     justify-content: center;
+}
+
+/* partie contact */
+
+.Commentaire{
+    text-align: center;
+    height: 200px;
+    width: 500px;
+}
+.prénom{
+    border-radius: 15px;
+    min-height: 20px
+}
+.email{
+    border-radius: 15px;
+    min-height: 20px;
 }

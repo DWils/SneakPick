@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'acceuil</title>
+    <title>Mon compte</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="style main.css">
 </head>
@@ -21,7 +21,7 @@
                 <input type="text" placeholder="Search...">
             </div>
             <div class="icons">
-                <a href="Page Mes renseignements.html" class="account_circle"><span class="material-icons">account_circle</span></a>
+                <a href="" class="account_circle"><span class="material-icons">account_circle</span></a>
                 <a href="" class="favorite"><span class="material-icons">favorite</span></a>
                 <a href="" class="shopping_cart"><span class="material-icons">shopping_cart</span></a>
             </div>
@@ -29,18 +29,54 @@
     </header>
     <!-- fin du header -->
 
-    <!-- début slider -->
-    <div class="backgroundslider">
-        <div class="slider">
-            <div class="slides">
-            <div class="slide"><img src="Images/Bannière acceuil/dior x travis scott air jordan.jpg" alt=""></div>
-            <div class="slide"><img src="Images/Bannière acceuil/Neighborhood x adidas Iniki Runner.jpg" alt=""></div>
-            <div class="slide"><img src="Images/Bannière acceuil/PUMA x AMI Slipstream.jpg" alt=""></div>
+    <!-- section renseignements -->
+    <section class="bloc">
+        <div class="moncompte">
+            <div class="h2compte">
+                <h2>Mon compte</h2>
+            </div>
+            <div class="liste">
+                <a href="Page Mes renseignements.html" class="renseignements">Mes renseignements</a>
+                <a href="Page adresses.html" class="adresses">Mes adresses</a> 
+                <a href="Page Mes commandes.html" class="commmandes">Historiques des commandes</a>  
             </div>
         </div>
-    </div>
+        <div class="inputinfos">
+            <h1>Mes adresses</h1>
+            <h2>Adresses de facturation</h2>
+            <hr>
+            <div class="infoperso"> 
+                <div class="adresse1">
+                    <label for="adresse">Nom et numéro de rue</label>
+                    <input type="text" class="adresse">
+                    <label for="CP">Code Postal</label>
+                    <input type="text" class="CP">
+                    <label for="ville">Ville</label>
+                    <input type="text" class="ville">
+                </div>
+                <div>
+                    <button type="submit">Sauvegarder</button>
+                </div>
+            </div>
+            <h2>Adresses de livraison</h2>
+            <hr>
+            <div class="infoco">
+                <div class="adresse2">
+                        <label for="adresse">Nom et numéro de rue</label>
+                        <input type="text" class="adresse">
+                        <label for="CP">Code Postal</label>
+                        <input type="text" class="CP">
+                        <label for="ville">Ville</label>
+                        <input type="text" class="ville">
+                </div>
+                <div>
+                    <button type="submit">Sauvegarder</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- fin du slider -->
+    <!-- fin section renseignements -->
 
     <!-- début du footer, à reprendre sur chaque base qui en a un -->
     <footer>

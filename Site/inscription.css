@@ -13,6 +13,8 @@ body{
     background-color:rgb(219, 219, 219);
     border-radius: 15px;
     border:0 ;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .fname{
@@ -20,36 +22,54 @@ body{
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .Identifiant{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .name{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .password{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .tel{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .naissance{
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
     border:0 ;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .email{
     min-width: 550px;
@@ -57,6 +77,9 @@ body{
     border-radius: 15px;
     border:0 ;
     margin-bottom: 20px;
+    outline-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .buttom{
     min-width: 300px;
@@ -64,9 +87,15 @@ body{
     background-color:rgb(17, 165, 255);
     text-align: center; color: aliceblue;
     border-radius: 15px;
-    border:0 ;
+    border:none;
     margin-bottom: 50px;
+    outline-style: none;
 }
+.buttom:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
 h6{color:rgb(17, 165, 255)}
 
 .gauche1{margin-right: 450px;}

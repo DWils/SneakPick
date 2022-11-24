@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'acceuil</title>
+    <title>Mon compte</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="style main.css">
 </head>
@@ -29,41 +29,54 @@
     </header>
     <!-- fin du header -->
 
-    <section class="blocgauche">
+    <!-- section renseignements -->
+    <section class="bloc">
         <div class="moncompte">
-            <div class="menucompte">
+            <div class="h2compte">
                 <h2>Mon compte</h2>
             </div>
             <div class="liste">
-                    <a href="">Mes renseignements</a>
-                    <a href="">Mes adresses</a> 
-                    <a href="">Historiques des commandes</a> 
+                <a href="Page Mes renseignements.html" class="renseignements">Mes renseignements</a>
+                <a href="Page adresses.html" class="adresses">Mes adresses</a> 
+                <a href="Page Mes commandes.html" class="commmandes">Historiques des commandes</a>  
             </div>
         </div>
         <div class="inputinfos">
             <h1>Mes renseignements</h1>
             <h2>Informations personnelles</h2>
-            <hr>            
-            <label for="prénom">Prénom</label>
-            <input type="text" class="prénom" placeholder="Prénom">
-            <label for="nom">Nom de famille</label>
-            <input type="text" class="nom" placeholder="Nom de famille">
-            <label for="date">Date de naissance</label>
-            <input type="date" class="date">
-            <label for="tel">Numéro de téléphone</label>
-            <input type="tel" class="tel" placeholder="Numéro de téléphone">
-            <button type="submit">Sauvegarder</button>
-
+            <hr>
+            <div class="infoperso"> 
+                <div class="info1">
+                    <label for="prénom">Prénom :</label>
+                    <input type="text" class="prénom" placeholder="Jean">
+                    <label for="nom">Nom de famille :</label>
+                    <input type="text" class="nom" placeholder="Bon">
+                </div>
+                <div class="info2">
+                    <label for="date">Date de naissance :</label>
+                    <input type="date" class="date">
+                    <label for="tel">Numéro de téléphone :</label>
+                    <input type="tel" class="tel" placeholder="0601020304">
+                </div>
+                <div>
+                    <button type="submit">Sauvegarder</button>
+                </div>
+            </div>
             <h2>Infos de connexion</h2>
             <hr>
-            <label for="email">Adresse E-mail</label>
-            <label for="password">Mot de passe</label>
-            <input type="email" class="email">
-            <input type="password" class="password">
-            
-            
+            <div class="infoco">
+                <div class="info3">
+                    <label for="email">Adresse E-mail :</label>
+                    <input type="email" class="email" placeholder="jean.bon@gmail.com">
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" class="password" placeholder="Mot de passe">
+                </div>
+                <button type="submit">Sauvegarder</button>
+            </div>
         </div>
     </section>
+
+    <!-- fin section renseignements -->
 
     <!-- début du footer, à reprendre sur chaque base qui en a un -->
     <footer>

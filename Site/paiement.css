@@ -1,10 +1,11 @@
-/* Ceci est appliqué pour toute la page internet */
-*{
-    margin: 0;
-    padding: 0;
+* {
+
+    font-family: 'Inter', sans-serif;
+
 }
 
 /*style du header */
+
 .topcolor{
     background-color: lightgrey;
     height: 70px;
@@ -51,54 +52,133 @@
 .icons a{
     color: black;
 }
+
 /* fin header */
 
-/* slider */
-.backgroundslider{
+
+.espace0{
+    display:flex;
+    margin:50px;
+}
+
+.espaceun{
+    display:flex;
+    margin:50px;
+}
+
+.espacedeux{
+    display:flex;
+    margin:50px;
+}
+
+.espacetrois{
+    display:flex;
+    margin:70px;
+}
+
+.espacequatre{
+    display:flex;
+    margin:70px;
+}
+
+.blocpaiement1 {
+    display: flex;
+    border: 1px solid;
+    justify-content: space-around;
+    align-items: center;
+    margin:40px;
+}
+
+.blocpaiementp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ivypark {
+    display: flex;
+    height: 200px;
+}
+
+/* bloclivraison */
+
+.blocpaiement2 {
+    border: 1px solid;
+    padding-left:50px;
+    padding-bottom: 50px;
+    margin:40px;
+}
+
+.blocselectlivraison {
     display: flex;
     justify-content: center;
 }
-.slider{
-    width: 1050px;
-    overflow: hidden;
-}
-.slides{
-    width: calc(1050px*3);
-    animation: glisse 10s infinite;
-}
-.slide{
-    float: left;
+
+#titrelivraison {
+    text-align: left;
+    font-weight: bold;
 }
 
-@keyframes glisse {
-    0%{
-        transform: translateX(0);
-    }
-    10%{
-        transform: translateX(0);
-    }
-    33%{
-        transform: translateX(-1050px);
-    }
-    43%{
-        transform: translateX(-1050px);
-    }
-    66%{
-        transform: translateX(-2100px);
-    }
-    76%{
-        transform: translateX(-2100px);
-    }
-    100%{
-        transform: translateX(0);
-    }
+.blocpaiement3{
+    border: 1px solid;
+    padding-left:50px;
+    padding-bottom: 50px;
+    margin:40px;
 }
-/* fin slider */
 
-/* partie profil utilisateur et toutes les pages qui vont avec */
-.
+#titredepaiement{
+    text-align: left;
+    font-weight: bold;
+}
 
-/* fin partie utilisateur */
+.blocselectpaiement{
+    display: flex;
+    justify-content: center;
+}
+
+#payer{
+
+    display: block;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+#visa{
+    display: flex;
+    height: 30px;
+    position: absolute; 
+    right: 40%;
+    top:129%;
+    
+}
+
+#paypal{
+
+    display: flex;
+    height: 30px;
+    position: absolute; 
+    right: 40%;
+    top:135%;
+    
+}
+
+#applepay{
+
+    display: flex;
+    height: 30px;
+    position: absolute; 
+    right: 40%;
+    top:140%;
+
+}
 
 /* Partie du style pour le footer */
 .footer{

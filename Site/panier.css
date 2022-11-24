@@ -1,10 +1,7 @@
-/* Ceci est appliqué pour toute la page internet */
-*{
-    margin: 0;
-    padding: 0;
+* {
+    font-family: 'Inter', sans-serif;
 }
 
-/*style du header */
 .topcolor{
     background-color: lightgrey;
     height: 70px;
@@ -17,8 +14,8 @@
     justify-content: space-evenly;
     align-items: flex-end;
     position: relative;
-
 }
+
 .searchbar{
     display: flex;
     background: lightgray;
@@ -51,56 +48,136 @@
 .icons a{
     color: black;
 }
-/* fin header */
 
-/* slider */
-.backgroundslider{
+#conteneur1 {
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+    height: 100px;
+}
+
+#blockpanier {
+    display: flex;
+    border: 1px solid;
+    border-radius: 30px;
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imgyvypark {
+    height: 150px;
+    display: flex;
+}
+
+#padidasyvy {
+    text-align: center;
+}
+
+#taille {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#quantité {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#textpanier {
+    text-align: center;
+}
+
+#labelcodepromo {
     display: flex;
     justify-content: center;
 }
-.slider{
-    width: 1050px;
-    overflow: hidden;
-}
-.slides{
-    width: calc(1050px*3);
-    animation: glisse 10s infinite;
-}
-.slide{
-    float: left;
+
+#navbarcodepromo {
+    border: 1px solid;
+    display: flex;
+    height: 30px;
+    text-align: center;
 }
 
-@keyframes glisse {
-    0%{
-        transform: translateX(0);
-    }
-    10%{
-        transform: translateX(0);
-    }
-    33%{
-        transform: translateX(-1050px);
-    }
-    43%{
-        transform: translateX(-1050px);
-    }
-    66%{
-        transform: translateX(-2100px);
-    }
-    76%{
-        transform: translateX(-2100px);
-    }
-    100%{
-        transform: translateX(0);
-    }
+#buttoncodepromo {
+    border: 1px solid;
+    display: flex;
+    height: 30, 5px;
+    background-color: black;
+    padding: 5px;
 }
-/* fin slider */
 
-/* partie profil utilisateur et toutes les pages qui vont avec */
-.
+#boutoncodepromo {
+    background-color: black;
+    border: none;
+    color: white;
+}
 
-/* fin partie utilisateur */
+#blocpaiement {
+    display: flex;
+    justify-content: flex-end;
+}
 
-/* Partie du style pour le footer */
+
+#validerlepanier {
+    display: block;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#total {
+    display: flex;
+    justify-content: flex-end;
+    text-align: justify;
+    word-spacing: 30px;
+}
+
+#select {
+    display: flex;
+    border: ridge;
+    border-radius: 10%;
+    width: 70px;
+    height: 30px;
+    background-color: transparent;
+}
+
+#selectnumber {
+    display: flex;
+    border: ridge;
+    border-radius: 10%;
+    width: 60px;
+    height: 25px;
+    background-color: transparent;
+}
+
+#poubelle {
+    display: flex;
+    height: 35px;
+    position: absolute; 
+    right: 200px;
+    bottom: 290px;
+}
+
+#coeur{
+        display: flex;
+        height: 45px;
+        position: absolute; 
+        right: 130px;
+        bottom: 285px;
+}
+
 .footer{
     margin-top: 20px;
     padding: 0;

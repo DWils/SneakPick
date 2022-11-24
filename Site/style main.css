@@ -54,8 +54,6 @@
 }
 /* fin header */
 
-
-
 /* slider */
 .backgroundslider{
     display: flex;
@@ -99,6 +97,12 @@
 /* fin slider */
 
 /* partie profil utilisateur et toutes les pages qui vont avec */
+<<<<<<< HEAD
+.
+
+/* fin partie utilisateur */
+
+=======
 /* bloc gauche */
 .bloc{
     display:flex ;
@@ -230,7 +234,52 @@
 /* fin bloc adresses */
 /* fin partie utilisateur */
 
+/* Partie commandes */
+.inputcommande{
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    width: 55%;
+    background: lightgrey;
+    border-radius: 37px;
+    margin-top: 150px
+}
+    .commandtab{
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+        background: white;
+        border-radius: 37px;
+        margin-top: 20px;
+    }
+        .colarticle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .colquant{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .colprix{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .coletat{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+/* Fin partie commandes */
 
+
+>>>>>>> e54d166235bdaf580dfd4a5c10d5cf2f1b7a4ecb
 /* Partie du style pour le footer */
 .footer{
     margin-top: 20px;  

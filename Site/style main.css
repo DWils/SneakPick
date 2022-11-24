@@ -230,6 +230,50 @@
 /* fin bloc adresses */
 /* fin partie utilisateur */
 
+/* Partie commandes */
+.inputcommande{
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    width: 55%;
+    background: lightgrey;
+    border-radius: 37px;
+    margin-top: 150px
+}
+    .commandtab{
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+        background: white;
+        border-radius: 37px;
+        margin-top: 20px;
+    }
+        .colarticle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .colquant{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .colprix{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .coletat{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+/* Fin partie commandes */
+
 
 /* Partie du style pour le footer */
 .footer{

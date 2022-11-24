@@ -1,0 +1,289 @@
+* {
+
+    font-family: 'Inter', sans-serif;
+
+}
+
+/*style du header */
+
+.topcolor{
+    background-color: lightgrey;
+    height: 70px;
+}
+.container{
+    height: 70px;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: relative;
+
+}
+.searchbar{
+    display: flex;
+    background: lightgray;
+    border-radius: 37px;
+    width: auto;
+    height: 35px;
+    border-left: 30;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+}
+.searchbar input{ 
+    width: 250px;
+    height: 20px;
+    align-self: center;
+    border-radius: 37px;
+    border : none;
+    outline: none;
+    text-align: center;
+}
+.searchbar button{
+    align-self: center; 
+    background: none;
+    border: none;
+    margin-right: 10px;
+    margin-top:5px ;
+}
+.menu{
+    color: black;
+}
+.icons a{
+    color: black;
+}
+
+/* fin header */
+
+
+.espace0{
+    display:flex;
+    margin:50px;
+}
+
+.espaceun{
+    display:flex;
+    margin:50px;
+}
+
+.espacedeux{
+    display:flex;
+    margin:50px;
+}
+
+.espacetrois{
+    display:flex;
+    margin:70px;
+}
+
+.espacequatre{
+    display:flex;
+    margin:70px;
+}
+
+.blocpaiement1 {
+    display: flex;
+    border: 1px solid;
+    justify-content: space-around;
+    align-items: center;
+    margin:40px;
+}
+
+.blocpaiementp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ivypark {
+    display: flex;
+    height: 200px;
+}
+
+/* bloclivraison */
+
+.blocpaiement2 {
+    border: 1px solid;
+    padding-left:50px;
+    padding-bottom: 50px;
+    margin:40px;
+}
+
+.blocselectlivraison {
+    display: flex;
+    justify-content: center;
+}
+
+#titrelivraison {
+    text-align: left;
+    font-weight: bold;
+}
+
+.blocpaiement3{
+    border: 1px solid;
+    padding-left:50px;
+    padding-bottom: 50px;
+    margin:40px;
+}
+
+#titredepaiement{
+    text-align: left;
+    font-weight: bold;
+}
+
+.blocselectpaiement{
+    display: flex;
+    justify-content: center;
+}
+
+#payer{
+
+    display: block;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+#visa{
+    display: flex;
+    height: 30px;
+    position: absolute; 
+    right: 40%;
+    top:129%;
+    
+}
+
+#paypal{
+
+    display: flex;
+    height: 30px;
+    position: absolute; 
+    right: 40%;
+    top:135%;
+    
+}
+
+#applepay{
+
+    display: flex;
+    height: 30px;
+    position: absolute; 
+    right: 40%;
+    top:140%;
+
+}
+
+/* Partie du style pour le footer */
+.footer{
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction:column ;
+}
+/* partie du footer avec infos paiement */
+.paiement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: lightgrey;
+    margin-bottom: 5px; 
+}
+.paiement img{
+    margin: 0 20px
+}
+
+/* partie concernant les réseaux sociaux ainsi que Newletters et contact */
+
+.social_contact{
+    display: flex;
+    background: lightgrey;
+}
+.social_contact div{
+    width: 33%;
+}
+/* partie reseaux */
+.p{
+    justify-content: center;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+
+/* partie newletter */
+.newletter{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mailinput{
+    display: flex;
+    justify-content: center;
+}
+.newletter h1{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.mailinput input{
+    width: 250px;
+    align-items: center;
+    border : none;
+    outline: none;
+    text-align: center;
+    padding: 5px;
+}
+.mailinput button{
+    align-self: center; 
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.newletter p{
+    margin-top: 10px;
+}
+/* partie localisation */
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contactin{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.contact a{
+    margin-right: 5px;
+}
+
+/* Partie concernant les CGV et les copyright */
+.cgv{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.cgv div{
+    width: 33%;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}

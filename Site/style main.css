@@ -1,17 +1,18 @@
 /* Ceci est appliqué pour toute la page internet */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /*style du header */
-.topcolor{
+.topcolor {
     background-color: lightgrey;
     height: 70px;
 }
-.container{
+
+.container {
     height: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 130px;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
@@ -19,7 +20,8 @@
     position: relative;
 
 }
-.searchbar{
+
+.searchbar {
     display: flex;
     background: lightgray;
     border-radius: 37px;
@@ -29,110 +31,130 @@
     justify-content: space-between;
     padding: 0 15px 0 15px;
 }
-.searchbar input{ 
+
+.searchbar input {
     width: 250px;
     height: 20px;
     align-self: center;
     border-radius: 37px;
     padding-left: 5px;
-    border : none;
+    border: none;
     outline: none;
     text-align: left;
 }
-.searchbar button{
-    align-self: center; 
+
+.searchbar button {
+    align-self: center;
     background: none;
     border: none;
     margin-right: 10px;
-    margin-top:5px ;
+    margin-top: 5px;
 }
-.menu{
+
+.menu {
     color: black;
 }
-.icons a{
+
+.icons a {
     color: black;
 }
+
 /* fin header */
 
 /* slider */
-.backgroundslider{
+.backgroundslider {
     display: flex;
     justify-content: center;
 }
-.slider{
+
+.slider {
     width: 1050px;
     overflow: hidden;
 }
-.slides{
+
+.slides {
     width: calc(1050px*3);
     animation: glisse 10s infinite;
 }
-.slide{
+
+.slide {
     float: left;
 }
 
 @keyframes glisse {
-    0%{
+    0% {
         transform: translateX(0);
     }
-    10%{
+
+    10% {
         transform: translateX(0);
     }
-    33%{
+
+    33% {
         transform: translateX(-1050px);
     }
-    43%{
+
+    43% {
         transform: translateX(-1050px);
     }
-    66%{
+
+    66% {
         transform: translateX(-2100px);
     }
-    76%{
+
+    76% {
         transform: translateX(-2100px);
     }
-    100%{
+
+    100% {
         transform: translateX(0);
     }
 }
+
 /* fin slider */
 
 /* partie profil utilisateur et toutes les pages qui vont avec */
-<<<<<<< HEAD
-.
-
+<<<<<<< HEAD .
 /* fin partie utilisateur */
 
 =======
+
 /* bloc gauche */
-.bloc{
-    display:flex ;
+.bloc {
+    display: flex;
     justify-content: flex-start;
     margin-left: 400px;
 }
-    .bloc hr{
-        margin: 15px 0;
-    }
-    .moncompte{
-        display: flex;
-        flex-direction: column;
-        margin: 50px;
-    }
-        .h2compte{
-            margin-bottom: 150px;
-        }
-            .liste{
-                display: flex;
-                flex-direction: column;
-                margin-left: 25px;
-            }
-                .liste a{
-                    text-decoration: none;
-                    color: black;
-                    margin-bottom: 10px;
-                }
+
+.bloc hr {
+    margin: 15px 0;
+}
+
+.moncompte {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.h2compte {
+    margin-bottom: 150px;
+}
+
+.liste {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.liste a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
 /* fin bloc gauche */
 /* bloc renseignements */
-.inputinfos{
+.inputinfos {
     display: flex;
     padding: 25px;
     flex-direction: column;
@@ -141,136 +163,161 @@
     border-radius: 37px;
     margin-top: 150px
 }
-    .infoperso{
-        display:flex ;
-        flex-direction: column;
-        align-items: center;
-    }
-        .info1{
-            display: flex;
-            flex-direction: column;
-            width: fit-content;
-        }
-            .info1 label{
-                margin-bottom: 2px;
-            }
-            .info1 input{
-                margin-bottom: 4px;
-            }
-        .info2{
-            display: flex;
-            flex-direction: column;
-            width: fit-content;
-        }
-        .infoperso button{
-            margin: 10px;
-            padding: 5px;
-            border-radius: 15px;
-            border: none;
-            outline: none;
-            background: deepskyblue;
-            color: white;
-            text-align: center;
-        }
-        .infoperso button:hover{
-            opacity: 0.75;
-            cursor: pointer;
-        }
-    .infoco{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-        .info3{
-            display: flex;
-            flex-direction: column;
-            width: fit-content;
-        }
-            .info3 label{
-                margin-bottom: 2px;
-            }
-            .info3 input{
-                margin-bottom: 4px;
-            }
-        .infoco button{
-            margin: 10px;
-            padding: 5px;
-            border-radius: 15px;
-            border: none;
-            outline: none;
-            background: deepskyblue;
-            color: white;
-            text-align: center;
-        }
-        .infoco button:hover{
-            opacity: 0.75;
-            cursor: pointer;
-        }
+
+.infoperso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.info1 label {
+    margin-bottom: 2px;
+}
+
+.info1 input {
+    margin-bottom: 4px;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.infoperso button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+}
+
+.infoperso button:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.infoco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info3 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.info3 label {
+    margin-bottom: 2px;
+}
+
+.info3 input {
+    margin-bottom: 4px;
+}
+
+.infoco button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+}
+
+.infoco button:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
 /* fin bloc renseignements */
 
 /* bloc adresses */
-        .adresse1{
-            display: flex;
-            flex-direction: column;
-            width: fit-content;
-        }
-            .adresse1 label{
-                margin-bottom: 2px;
-            }
-            .adresse1 input{
-                margin-bottom: 4px;
-            }
-        .adresse2{
-            display: flex;
-            flex-direction: column;
-            width: fit-content;
-        }
-            .adresse2 label{
-                margin-bottom: 2px;
-            }
-            .adresse2 input{
-                margin-bottom: 4px;
-            }
+.adresse1 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.adresse1 label {
+    margin-bottom: 2px;
+}
+
+.adresse1 input {
+    margin-bottom: 4px;
+}
+
+.adresse2 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.adresse2 label {
+    margin-bottom: 2px;
+}
+
+.adresse2 input {
+    margin-bottom: 4px;
+}
+
 /* fin bloc adresses */
 /* fin partie utilisateur */
 
 
->>>>>>> e54d166235bdaf580dfd4a5c10d5cf2f1b7a4ecb
+>>>>>>>e54d166235bdaf580dfd4a5c10d5cf2f1b7a4ecb
+
 /* Partie du style pour le footer */
-.footer{
-    margin-top: 20px;  
+.footer {
+    margin-top: 20px;
     padding: 0;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
 }
+
 /* partie du footer avec infos paiement */
-.paiement{
+.paiement {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     background-color: lightgrey;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
-.paiement img{
+
+.paiement img {
     margin: 0 20px
 }
 
 /* partie page contact+map */
-.bloccontact{
+.bloccontact {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.divcontact{
+
+.divcontact {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     max-width: 50%;
 }
-.bloccontact h1{
+
+.bloccontact h1 {
     min-width: 400px;
     border: none;
     outline: none;
@@ -281,10 +328,12 @@
     padding: 5px;
     max-width: fit-content;
 }
-.inputcontact label{
+
+.inputcontact label {
     margin-right: 10px;
 }
-.inputcontact input{
+
+.inputcontact input {
     border: none;
     outline: none;
     background: whitesmoke;
@@ -294,12 +343,14 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-.bloccontact label{
+
+.bloccontact label {
     font-weight: bolder;
     color: black;
     align-self: flex-start;
 }
-.bloccontact h3{
+
+.bloccontact h3 {
     border: none;
     outline: none;
     background: lightgrey;
@@ -308,13 +359,15 @@
     border-radius: 15px;
     padding: 5px;
 }
-.divtext{
+
+.divtext {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-bottom: 50px;
 }
-.divtext textarea{
+
+.divtext textarea {
     min-width: 650px;
     padding: 25px;
     border: none;
@@ -323,8 +376,9 @@
     background: whitesmoke;
     border-radius: 10px;
 }
-.divtext .submit{
-    background:DeepSkyBlue;
+
+.divtext .submit {
+    background: DeepSkyBlue;
     padding: 10px;
     margin: 15px 0;
     max-width: fit-content;
@@ -332,96 +386,111 @@
     border-radius: 15px;
     color: white;
 }
-.divtext .submit:hover{
+
+.divtext .submit:hover {
     opacity: 0.75;
     cursor: pointer;
 }
-.divmap{
+
+.divmap {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     max-width: 50%;
 }
-.divmap iframe{
+
+.divmap iframe {
     margin-bottom: 25px;
 }
+
 /* fin partie page contact */
 
 
 /* partie concernant les réseaux sociaux ainsi que Newletters et contact */
 
-.social_contact{
+.social_contact {
     display: flex;
     background: lightgrey;
 }
-.social_contact div{
+
+.social_contact div {
     width: 33%;
 }
+
 /* partie reseaux */
-.p{
+.p {
     justify-content: center;
     align-items: center;
 }
-.socials{
+
+.socials {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
 /* partie newletter */
-.newletter{
+.newletter {
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.mailinput{
+
+.mailinput {
     display: flex;
     justify-content: center;
 }
-.newletter h1{
+
+.newletter h1 {
     font-size: medium;
     margin-bottom: 10px;
 }
-.mailinput input{
+
+.mailinput input {
     width: 250px;
     align-items: center;
-    border : none;
+    border: none;
     outline: none;
     text-align: center;
     padding: 5px;
     background: whitesmoke;
 }
-.mailinput button{
-    align-self: center; 
+
+.mailinput button {
+    align-self: center;
     background: black;
     color: white;
     border: none;
     outline: none;
     padding: 5px;
 }
-.newletter p{
+
+.newletter p {
     margin-top: 10px;
 }
+
 /* partie localisation */
-.contact{
+.contact {
     display: flex;
     justify-content: center;
 }
-.contactin{
+
+.contactin {
     display: flex;
     align-items: center;
     text-align: left;
 }
-.contact a{
+
+.contact a {
     margin-right: 5px;
 }
 
 /* Partie concernant les CGV et les copyright */
-.cgv{
+.cgv {
     display: flex;
     border: 1px solid black;
     justify-content: space-around;
@@ -430,26 +499,137 @@
     padding: 5px;
     margin: 5px;
 }
-.cgv div{
+
+.cgv div {
     width: 33%;
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: center;
 }
 
 /* partie contact */
 
-.Commentaire{
+.Commentaire {
     text-align: center;
     height: 200px;
     width: 500px;
 }
-.prénom{
+
+.prénom {
     border-radius: 15px;
     min-height: 20px
 }
-.email{
+
+.email {
     border-radius: 15px;
     min-height: 20px;
 }
+
+/* test carousel*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    width: 100vw;
+    height: 200px;
+}
+
+@keyframes display {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    30% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+}
+
+.carousel {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.carousel>img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+}
+
+img:nth-child(2) {
+    animation-delay: 2s;
+}
+
+img:nth-child(3) {
+    animation-delay: 4s;
+}
+
+img:nth-child(4) {
+    animation-delay: 6s;
+}
+
+img:nth-child(5) {
+    animation-delay: 8s;
+}
+
+/* fin test carousel */
+
+
+/* bloc black friday */
+
+.blackfridaybloc {
+
+    display: flex;
+    border: 5px solid black;
+    width: 70%;
+    background-color: black;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+#imgbrand {
+    display: flex;
+    image-orientation: left;
+}
+
+.pblackfridaytext{
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: Dubai;
+    text-shadow: 30px 0px 30px gold;
+    margin:auto;
+
+}
+
+/* fin bloc black friday*/

@@ -49,6 +49,16 @@
     color: black;
 }
 
+.espace0{
+    display:flex;
+    margin:70px;
+}
+
+.monpanier{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
 #conteneur1 {
     padding: 0;
     margin: 0;

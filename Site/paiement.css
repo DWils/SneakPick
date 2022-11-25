@@ -9,7 +9,9 @@
 .topcolor{
     background-color: lightgrey;
     height: 70px;
+    
 }
+
 .container{
     height: 70px;
     margin-bottom: 20px;
@@ -55,6 +57,10 @@
 
 /* fin header */
 
+.validationdupanier{
+    display:flex;
+    margin-left: 50px;
+}
 
 .espace0{
     display:flex;
@@ -84,6 +90,7 @@
 .blocpaiement1 {
     display: flex;
     border: 1px solid;
+    border-radius:20px;
     justify-content: space-around;
     align-items: center;
     margin:40px;
@@ -104,6 +111,7 @@
 
 .blocpaiement2 {
     border: 1px solid;
+    border-radius:20px;
     padding-left:50px;
     padding-bottom: 50px;
     margin:40px;
@@ -121,6 +129,7 @@
 
 .blocpaiement3{
     border: 1px solid;
+    border-radius:20px;
     padding-left:50px;
     padding-bottom: 50px;
     margin:40px;
@@ -156,7 +165,7 @@
     height: 30px;
     position: absolute; 
     right: 40%;
-    top:129%;
+    top:142%;
     
 }
 
@@ -166,7 +175,7 @@
     height: 30px;
     position: absolute; 
     right: 40%;
-    top:135%;
+    top:147%;
     
 }
 
@@ -176,7 +185,7 @@
     height: 30px;
     position: absolute; 
     right: 40%;
-    top:140%;
+    top:153%;
 
 }
 

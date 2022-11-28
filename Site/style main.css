@@ -536,7 +536,7 @@ nav a{
 
 nav a:hover{
     color: deepskyblue;
-    border-bottom: 2px solid lightskyblue;
+    border-bottom: 2px solid deepskyblue;
 }
 
 .sous{
@@ -549,11 +549,14 @@ nav a:hover{
 }
 nav > ul li:hover .sous{
     display: block;
+    width: 250%;
+    margin-left: -60px;
+    background-color:lightgrey;
 }
 .sous li{
     float: none;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 .sous a{
     padding: 10px;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="inscription.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
     <div class="Inscription">
@@ -26,7 +27,8 @@
                 <input type="text" name="name" placeholder="Nom de famille" class="name">
             </label></div>
             <div class="droite2"><label for="Mot de passe">Mot de passe :
-                <input type="password" name="Mot de passe" placeholder="8 caractère avec 1 chiffre" class="password">
+                <input type="password" name="Mot de passe" placeholder="8 caractère avec 1 chiffre" class="password" id="id_password">
+                <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
             </label><br></div>
 <br>
             <div class="gauche3"><label for="Date de naissance">Date de naissance :
@@ -44,6 +46,7 @@
                 <a href="Page Acceuil.html"><input type="buttom" value="Sauvegarder" class="buttom"></a>
         </div>
 
+        <script src="Connexion Inscription.JS" type="text/javascript"></script>
 
 </body>
 </html>

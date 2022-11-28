@@ -1,7 +1,8 @@
 /* Ceci est appliqué pour toute la page internet */
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
 }
 
 /*style du header */
@@ -494,12 +495,6 @@
 
 
 /*partie menu déroulant icon */
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Avenir, sans-serif;
-}
 
 nav{
     width: 100%;

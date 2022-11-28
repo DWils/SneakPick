@@ -160,33 +160,9 @@
     font-weight: bold;
 }
 
-#visa{
-    display: flex;
-    height: 30px;
-    position: absolute; 
-    right: 40%;
-    top:142%;
-    
-}
-
-#paypal{
-
-    display: flex;
-    height: 30px;
-    position: absolute; 
-    right: 40%;
-    top:147%;
-    
-}
-
-#applepay{
-
-    display: flex;
-    height: 30px;
-    position: absolute; 
-    right: 40%;
-    top:153%;
-
+#visa, #paypal, #applepay{
+    width: 40px;
+    margin-left: 15px;
 }
 
 /* Partie du style pour le footer */

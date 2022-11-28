@@ -574,14 +574,8 @@
     min-height: 20px;
 }
 
-HEAD
 /* test carousel*/
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
 
 .carousel {
     width: 100vw;

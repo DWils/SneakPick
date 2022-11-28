@@ -1,0 +1,420 @@
+/* Ceci est appliqué pour toute la page internet */
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+/*style du header */
+.topcolor{
+    background-color: lightgrey;
+    height: 70px;
+}
+.container{
+    height: 70px;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: relative;
+
+}
+.searchbar{
+    display: flex;
+    background: lightgray;
+    border-radius: 37px;
+    width: auto;
+    height: 35px;
+    border-left: 30;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+}
+.searchbar input{ 
+    width: 250px;
+    height: 20px;
+    align-self: center;
+    border-radius: 37px;
+    padding-left: 5px;
+    border : none;
+    outline: none;
+    text-align: left;
+}
+.searchbar button{
+    align-self: center; 
+    background: none;
+    border: none;
+    margin-right: 10px;
+    margin-top:5px ;
+}
+.menu{
+    color: black;
+    z-index: 1;
+}
+.icons a{
+    color: black;
+}
+
+
+/* ------ */
+.cardcontainer {
+    display: flex
+}
+.card {
+    width: 400px; /*1*/
+    margin: 0px auto; /*2*/
+    background-color: white; /*3*/
+    box-shadow: 0px 5px 20px #999; /*4*/
+  }
+  .card a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+  .card:hover .card-image img { /*6*/
+    width: 120%;
+    filter: grayscale(0);
+  }
+  .card-image {
+    height: 250px;/*1*/
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+  }
+  .card-image img {
+    width: 100%;/*4*/
+      /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(1);/*6*/
+      /*7 - Transition */
+    transition-property: filter width; 
+    transition-duration: .3s;
+    transition-timing-function: ease;
+  }
+  .card-body {
+    text-align:center;  /*1*/
+  padding: 15px 20px; /*2*/
+  box-sizing: border-box; /*3*/
+}
+.card-date {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .card-title, .card-excerpt {
+     font-family: 'Playfair Display', serif;
+  }
+  
+  .card-date, .card-title {
+    text-align:center;
+    text-transform:uppercase;
+    font-weight: bold;
+  }
+  
+  .card-date, .card-excerpt {
+    color: #777;
+  }
+/* ------ */
+
+
+
+/* Partie du style pour le footer */
+.footer{
+    margin-top: 20px;  
+    padding: 0;
+    display: flex;
+    flex-direction:column ;
+}
+/* partie du footer avec infos paiement */
+.paiement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: lightgrey;
+    margin-bottom: 5px; 
+}
+.paiement img{
+    margin: 0 20px
+}
+
+/* partie page contact+map */
+.bloccontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divcontact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 50%;
+}
+.bloccontact h1{
+    min-width: 400px;
+    border: none;
+    outline: none;
+    background: lightgrey;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 5px;
+    max-width: fit-content;
+}
+.inputcontact label{
+    margin-right: 10px;
+}
+.inputcontact input{
+    border: none;
+    outline: none;
+    background: whitesmoke;
+    max-width: fit-content;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bloccontact label{
+    font-weight: bolder;
+    color: black;
+    align-self: flex-start;
+}
+.bloccontact h3{
+    border: none;
+    outline: none;
+    background: lightgrey;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.divtext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.divtext textarea{
+    min-width: 650px;
+    padding: 25px;
+    border: none;
+    outline: none;
+    resize: none;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.divtext .submit{
+    background:DeepSkyBlue;
+    padding: 10px;
+    margin: 15px 0;
+    max-width: fit-content;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.divtext .submit:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.divmap{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 50%;
+}
+.divmap iframe{
+    margin-bottom: 25px;
+}
+/* fin partie page contact */
+
+
+/* partie concernant les réseaux sociaux ainsi que Newletters et contact */
+
+.social_contact{
+    display: flex;
+    background: lightgrey;
+}
+.social_contact div{
+    width: 33%;
+}
+/* partie reseaux */
+.p{
+    justify-content: center;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+/* partie newletter */
+.newletter{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mailinput{
+    display: flex;
+    justify-content: center;
+}
+.newletter h1{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.mailinput input{
+    width: 250px;
+    align-items: center;
+    border : none;
+    outline: none;
+    text-align: center;
+    padding: 5px;
+    background: whitesmoke;
+}
+.mailinput button{
+    align-self: center; 
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.newletter p{
+    margin-top: 10px;
+}
+/* partie localisation */
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contactin{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.contact a{
+    margin-right: 5px;
+}
+
+/* Partie concernant les CGV et les copyright */
+.cgv{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.cgv div{
+    width: 33%;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+/* partie contact */
+
+.Commentaire{
+    text-align: center;
+    height: 200px;
+    width: 500px;
+}
+.prénom{
+    border-radius: 15px;
+    min-height: 20px
+}
+.email{
+    border-radius: 15px;
+    min-height: 20px;
+}
+
+/*partie menu déroulant icon */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 150%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: deepskyblue;
+    border-bottom: 2px solid lightskyblue;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+    visibility: hidden;
+}
+
+.conteneur{
+    margin: 50px 20px;
+    height: 1500px;
+}
+
+
+/* Fin de menu déroulant icon */

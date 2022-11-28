@@ -1,107 +1,152 @@
-body{
-    text-align:center;
+body {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-content: center;
     width: 100%;
-    border:0 ;
+    border: 0;
     margin-top: 4%;
 }
+
+/* Cache icone Barre Numbers */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 .Inscription {
     min-width: 800px;
-    min-height:350px;
-    background-color:rgb(219, 219, 219);
+    min-height: 350px;
+    background-color: rgb(219, 219, 219);
     border-radius: 15px;
-    border:0 ;
+    border: 0;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.fname{
+.fname {
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
-    border:0 ;
+    border: 0;
     outline-style: none;
     padding-left: 20px;
     padding-right: 20px;
 }
-.Identifiant{
+
+.Identifiant {
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
-    border:0 ;
+    border: 0;
     outline-style: none;
     padding-left: 20px;
     padding-right: 20px;
 }
-.name{
+
+.name {
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
-    border:0 ;
+    border: 0;
     outline-style: none;
     padding-left: 20px;
     padding-right: 20px;
 }
-.password{
+
+.password {
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
-    border:0 ;
+    border: 0;
     outline-style: none;
     padding-left: 20px;
     padding-right: 20px;
 }
-.tel{
+
+.tel {
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
-    border:0 ;
+    border: 0;
     outline-style: none;
     padding-left: 20px;
     padding-right: 20px;
 }
-.naissance{
+
+.naissance {
     max-width: 250px;
     min-height: 25px;
     border-radius: 15px;
-    border:0 ;
+    border: 0;
     outline-style: none;
     padding-left: 20px;
     padding-right: 20px;
 }
-.email{
+
+.email {
     min-width: 550px;
     min-height: 25px;
     border-radius: 15px;
-    border:0 ;
+    border: 0;
     margin-bottom: 20px;
     outline-style: none;
     padding-left: 20px;
     padding-right: 20px;
 }
-.buttom{
+
+.buttom {
     min-width: 300px;
     min-height: 40px;
-    background-color:rgb(17, 165, 255);
-    text-align: center; color: aliceblue;
+    background-color: rgb(17, 165, 255);
+    text-align: center;
+    color: aliceblue;
     border-radius: 15px;
-    border:none;
+    border: none;
     margin-bottom: 50px;
     outline-style: none;
 }
-.buttom:hover{
+
+.buttom:hover {
     cursor: pointer;
     opacity: 0.75;
 }
 
-h6{color:rgb(17, 165, 255)}
+h4 {
+    color: rgb(17, 165, 255)
+}
 
-.gauche1{margin-right: 450px;}
-.gauche2{margin-right: 450px;}
-.gauche3{margin-right: 450px;}
+.gauche1 {
+    margin-right: 450px;
+}
 
-.droite1{margin-left: 300px; margin-top: -27px;}
-.droite2{margin-left: 300px; margin-top: -27px;}
-.droite3{margin-left: 300px; margin-top: -27px;}
+.gauche2 {
+    margin-right: 450px;
+}
+
+.gauche3 {
+    margin-right: 450px;
+}
+
+.droite1 {
+    margin-left: 300px;
+    margin-top: -27px;
+}
+
+.droite2 {
+    margin-left: 300px;
+    margin-top: -27px;
+}
+
+.droite3 {
+    margin-left: 300px;
+    margin-top: -27px;
+}

@@ -1,40 +1,38 @@
+.blackfridaybloc {
 
+    display: flex;
+    border: 5px solid black;
+    width: 70%;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
 
-.blackfridaybloc{
-
-  display:flex;
-  border:5px solid black;
-  width:70%;
-  background-color: black;
-  margin:auto;
-  margin-top: 20px;
-  
 }
 
-#imgbrand{
-  display:flex;
-  image-orientation: left;
+#imgbrand {
+    display: flex;
+    image-orientation: left;
 }
 
-.pblackfridaytext{
-  display:flex;
-  text-align: center;
-  color:#FFFFFF;
-  font-size: 40px;
-  font-family: Dubai;
-  text-shadow: 30px 0px 30px gold;
+.pblackfridaytext {
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: Dubai;
+    text-shadow: 30px 0px 30px gold;
 }
 
 /* bloc carousel principal */
 
-.bloccaroussel{
-  display:flex;
-  border: 5px solid black;
-  height: 40%;
-  width:95%;
-  justify-content:space-between;
-  margin:auto;
-  
+.bloccaroussel {
+    display: flex;
+    border: 5px solid black;
+    height: 40%;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+
 }
 
 /* fin carousel bloc principal */
@@ -82,7 +80,7 @@ body {
     height: 400px;
     margin-top: 90px;
     margin-bottom: 150px;
-    border:2px solid black;
+    border: 2px solid black;
 }
 
 .carousel>img {
@@ -154,7 +152,7 @@ body {
     height: 400px;
     margin-top: 90px;
     margin-bottom: 150px;
-    border:2px solid black;
+    border: 2px solid black;
 }
 
 .carousel2>img {
@@ -183,8 +181,6 @@ img:nth-child(5) {
 
 
 /* fin carousel2*/
-
-
 
 
 /* carousel 3*/
@@ -229,7 +225,7 @@ body {
     height: 400px;
     margin-top: 90px;
     margin-bottom: 150px;
-    border:2px solid black;
+    border: 2px solid black;
 }
 
 .carousel3>img {
@@ -258,6 +254,3 @@ img:nth-child(5) {
 
 
 /* fin carousel 3*/
-
-
-

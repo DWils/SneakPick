@@ -27,12 +27,10 @@
 
 .bloccaroussel {
     display: flex;
-    border: 5px solid black;
-    height: 40%;
-    width: 95%;
     justify-content: space-between;
     margin: auto;
-
+    border: 1px solid black;
+    height: 380px;
 }
 
 /* fin carousel bloc principal */
@@ -40,11 +38,6 @@
 
 /* carousel*/
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
 
 
 @keyframes display {
@@ -77,18 +70,23 @@ body {
 .carousel {
     position: relative;
     width: 400px;
-    height: 400px;
+    height: 300px;
     margin-top: 90px;
-    margin-bottom: 150px;
     border: 2px solid black;
 }
 
 .carousel>img {
     position: absolute;
     top: 0;
-    left: calc(50% - 100px);
+    left: calc(50% - 200px);
     opacity: 0;
     animation: display 10s infinite;
+}
+
+#imgcarouselhomme {
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
 }
 
 img:nth-child(2) {
@@ -112,11 +110,6 @@ img:nth-child(5) {
 
 /* carousel2*/
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
 
 
 @keyframes display {
@@ -149,7 +142,7 @@ body {
 .carousel2 {
     position: relative;
     width: 400px;
-    height: 400px;
+    height: 300px;
     margin-top: 90px;
     margin-bottom: 150px;
     border: 2px solid black;
@@ -158,9 +151,15 @@ body {
 .carousel2>img {
     position: absolute;
     top: 0;
-    left: calc(50% - 100px);
+    left: calc(50% - 200px);
     opacity: 0;
     animation: display 10s infinite;
+}
+
+#imgcarouselfemme {
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
 }
 
 img:nth-child(2) {
@@ -185,11 +184,6 @@ img:nth-child(5) {
 
 /* carousel 3*/
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
 
 
 @keyframes display {
@@ -222,7 +216,7 @@ body {
 .carousel3 {
     position: relative;
     width: 400px;
-    height: 400px;
+    height: 300px;
     margin-top: 90px;
     margin-bottom: 150px;
     border: 2px solid black;
@@ -231,9 +225,15 @@ body {
 .carousel3>img {
     position: absolute;
     top: 0;
-    left: calc(50% - 100px);
+    left: calc(50% - 200px);
     opacity: 0;
     animation: display 10s infinite;
+}
+
+#imgcarouselenfant {
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
 }
 
 img:nth-child(2) {
@@ -252,5 +252,56 @@ img:nth-child(5) {
     animation-delay: 8s;
 }
 
-
 /* fin carousel 3*/
+
+.blocboutoncarousel {
+    display: flex;
+    border: 5px solid black;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+
+
+}
+
+.boutonhomme {
+    display: flex;
+    border: 1px solid black;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: lightgrey;
+    width: 200px;
+    justify-content: center;
+}
+
+.boutonfemme {
+    display: flex;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: lightgrey;
+    width: 200px;
+    justify-content: center;
+}
+
+.boutonenfant {
+    display: flex;
+    border: 1px solid black;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: lightgrey;
+    width: 200px;
+    justify-content: center;
+
+}

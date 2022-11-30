@@ -931,6 +931,8 @@ img:nth-child(5) {
 
 /* fin carousel 3*/
 
+/* début bouton carousel */
+
 .blocboutoncarousel {
     display: flex;
     border: 5px solid black;
@@ -938,6 +940,7 @@ img:nth-child(5) {
     width: 100%;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 10%;
 }
 
 .bloctitrecarousel{
@@ -985,3 +988,5 @@ img:nth-child(5) {
     justify-content: center;
 
 }
+
+/* fin début bouton carousel */

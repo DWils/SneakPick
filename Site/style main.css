@@ -710,6 +710,10 @@ nav>ul li:hover .sous {
     height: 400px;
 }
 
+.bloctitrecarousel{
+    text-align: center;
+}
+
 /* fin carousel bloc principal */
 
 
@@ -953,36 +957,36 @@ img:nth-child(5) {
 
 .boutonhomme {
     display: flex;
-    border: 1px solid white;
+    border: 1px solid black;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-    color: black;
-    background-color: lightgrey;
+    color:white;
+    background-color: black;
     width: 200px;
     justify-content: center;
 }
 
 .boutonfemme {
     display: flex;
-    border: 1px solid white;
+    border: 1px solid black;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-    color: black;
-    background-color: lightgrey;
+    color: white;
+    background-color: black;
     width: 200px;
     justify-content: center;
 }
 
 .boutonenfant {
     display: flex;
-    border: 1px solid white;
+    border: 1px solid black;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-    color: black;
-    background-color: lightgrey;
+    color:white;
+    background-color: black;
     width: 200px;
     justify-content: center;
 

@@ -275,7 +275,7 @@
 
 /*partie menu déroulant icon */
 
-nav{
+nav {
     width: 100%;
     margin: 0 auto;
     background-color: white;
@@ -355,6 +355,7 @@ nav>ul li:hover .sous {
     margin: 50px 20px;
     height: 1500px;
 }
+
 
 
 /* Fin de menu déroulant icon */

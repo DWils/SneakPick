@@ -985,3 +985,8 @@ img:nth-child(5) {
     justify-content: center;
 
 }
+
+/* couleur icone actif */
+.Actif{
+    color: deepskyblue;
+}

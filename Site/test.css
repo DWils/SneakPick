@@ -305,3 +305,56 @@ img:nth-child(5) {
     justify-content: center;
 
 }
+
+/* bloc marques */
+
+.blocmarques{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 100vw;
+}
+.text{
+    text-align: center;
+}
+
+.secondcont{
+    display: flex;
+    justify-content: center;
+}
+.cardbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: 25px 15px;
+    border-radius: 20px;
+    border:10px solid black;
+}
+.cardbottom:hover{
+    transform: scale(60%);
+    transition: 1s;
+    border-color:gold;
+    
+}
+.cardbottom button{
+    min-width: 300px;
+    min-height: 40px;
+    background-color:rgb(17, 165, 255);
+    text-align: center; color: aliceblue;
+    border-radius: 15px;
+    border:none;
+    margin-bottom: 50px;
+    outline-style: none;
+}
+.cardbottom button:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+
+
+/* fin bloc marques */

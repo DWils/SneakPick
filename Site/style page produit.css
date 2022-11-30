@@ -66,7 +66,7 @@
     --shadow: #949494;
 }
 
-.container{
+.container2{
     display: flex;
     position: relative;
     align-items: center;
@@ -99,7 +99,6 @@
     display: block;
     height: 480px;
     background: var(--bg-grey);
-    padding: 10px;
 }
 
 .product-image-main img{

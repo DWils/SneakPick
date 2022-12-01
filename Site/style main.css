@@ -14,12 +14,11 @@
 .container {
     height: 70px;
     margin-bottom: 130px;
-    padding: 0;
+    padding:0px;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
     position: relative;
-
 }
 
 .searchbar {
@@ -63,19 +62,29 @@
 
 /* fin header */
 
-/* slider */
+/* slider 1*/
+
+
 .backgroundslider {
     display: flex;
-    justify-content: center;
+    height:50%;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom:10%;
+    border:10px solid lightgrey;
+    background-color: lightgrey;
 }
 
 .slider {
-    width: 1050px;
+    width: 800px;
+    height:500px;
     overflow: hidden;
+    margin: auto;
+    border:5px solid white;
 }
 
 .slides {
-    width: calc(1050px*3);
+    width: calc(700px*3);
     animation: glisse 10s infinite;
 }
 
@@ -113,7 +122,70 @@
     }
 }
 
-/* fin slider */
+#imgcarousel1{
+    width: 800px;
+    height:500px;
+}
+
+/* fin slider 1*/
+
+/* début slider 2*/
+
+
+.slider2 {
+    width:400px;
+    height:600px;
+    overflow: hidden;
+    margin: auto;
+    border:5px solid white;
+}
+
+.slides2 {
+    width: calc(1030px*3);
+    animation: glisse 10s infinite;
+}
+
+.slide2 {
+    float: left;
+}
+
+@keyframes glisse{
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-800px);
+    }
+
+    43% {
+        transform: translateX(-800px);
+    }
+
+    66% {
+        transform: translateX(-800px);
+    }
+
+    76% {
+        transform: translateX(-800px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#imgcarousel2{
+    width:400px;
+    height:600px;
+}
+
+/* fin slider 2*/
+
 
 /* partie profil utilisateur et toutes les pages qui vont avec */
 
@@ -586,9 +658,8 @@
 
     display: flex;
     border: 5px solid black;
-    width: 70%;
+    width: 100%;
     background-color: black;
-    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
@@ -710,7 +781,7 @@ nav>ul li:hover .sous {
     height: 400px;
 }
 
-.bloctitrecarousel{
+.bloctitrecarousel {
     text-align: center;
 }
 
@@ -961,7 +1032,7 @@ img:nth-child(5) {
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-    color:white;
+    color: white;
     background-color: black;
     width: 200px;
     justify-content: center;
@@ -985,7 +1056,7 @@ img:nth-child(5) {
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-    color:white;
+    color: white;
     background-color: black;
     width: 200px;
     justify-content: center;
@@ -999,16 +1070,18 @@ img:nth-child(5) {
     color: deepskyblue;
 }
 
-/* bloc marques */
+/* début bloc marques */
 
-.text{
+.text {
     text-align: center;
+    margin-top: 200px;
 }
 
-.secondcont{
+.secondcont {
     display: flex;
     justify-content: center;
 }
+
 .cardbottom {
     display: flex;
     flex-direction: column;
@@ -1017,29 +1090,110 @@ img:nth-child(5) {
     width: 300px;
     margin: 25px 15px;
     border-radius: 20px;
-    border:10px solid black;
+    border: 10px solid black;
 }
-.cardbottom:hover{
+
+.cardbottom:hover {
     transform: scale(60%);
     transition: 1s;
-    border-color:gold;
-    
+    border-color: gold;
+
 }
-.cardbottom button{
+
+.cardbottom button {
     min-width: 300px;
     min-height: 40px;
-    background-color:rgb(17, 165, 255);
-    text-align: center; color: aliceblue;
+    background-color: rgb(17, 165, 255);
+    text-align: center;
+    color: aliceblue;
     border-radius: 15px;
-    border:none;
+    border: none;
     margin-bottom: 50px;
     outline-style: none;
 }
-.cardbottom button:hover{
+
+.cardbottom button:hover {
     cursor: pointer;
     opacity: 0.75;
 }
 
-
-
 /* fin bloc marques */
+
+
+/* début bloc image modele 1*/
+
+.blocimagemodele {
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    margin-bottom: 10%;
+    border:10px solid black;
+}
+
+#imgmodele1 {
+    height: 500px;
+    width: 400px;
+}
+
+#imgmodele2 {
+    height: 500px;
+    width: 700px;
+}
+
+#imgmodele3 {
+    height: 500px;
+    width: 400px;
+}
+
+/* fin bloc image modele 1*/
+
+/* debut image modele 2 */
+
+.blocimagemodele2{
+    display: flex;
+    justify-content:center;
+    margin:auto;
+    border:solid 10px black;
+    width:100%;
+    background-color: black;
+}
+
+#imgmodele4{
+    height:650px;
+    width:500px
+}
+
+#imgmodele5{
+    height:650px;
+    width:1000px;
+}
+
+/* fin image modele 2 */
+
+
+/* debut bloc infos livraison,paiement ... */
+
+.barre2 {
+    display: flex;
+    border: 10px solid lightgrey;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 6%;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+#pbarre2 {
+    size: 5px;
+
+}
+
+.material-icons {
+    height: 30px;
+    width: 40px;
+
+}
+
+/* fin bloc infos livraison,paiement ... */

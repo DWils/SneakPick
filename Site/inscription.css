@@ -1,3 +1,6 @@
+* {
+    font-family: Avenir, sans-serif;
+}
 body {
     text-align: center;
     display: flex;

@@ -30,10 +30,17 @@
                     </ul>
                 </nav>
             </div>
-            <div class="searchbar">
-                <button type="submit"><span class="material-icons">search</span></button>
-                <input type="text" placeholder="Search...">
+            <!-- searchbar -->
+            <div class="searchcontainer">
+                <form class="searchbar">
+                    <button type="submit" id="searchbtn"><span class="material-icons">search</span></button>
+                    <input type="text" id="searchbar" placeholder="Search...">
+                </form>
+                <div id="result-search">
+                    <ul id="search-list"></ul>
+                </div>
             </div>
+            <!-- ********* -->
             <div class="icons">
                 <a href="Page Mes renseignements.html" class="account_circle"><span class="material-icons">account_circle</span></a>
                 <a href="favoris.html" class="favorite"><span class="material-icons">favorite</span></a>
@@ -46,7 +53,7 @@
     <!-- Partie page homme/femme/enfant -->  
     <div class="cardcontainer">
         <div class="card">
-            <a href="">
+            <a href="Dossier page produit/Adidas Originals RETROPY P9.html">
                 <!-- Image à la une -->
                 <div class="card-image"><img src="Images/Sneakers page Homme/adidas Originals RETROPY.webp" alt="Orange" /></div>
                 <!-- Fin de l'image à la une -->
@@ -61,11 +68,11 @@
         
                     <!-- Titre de l'article -->
                     <div class="card-title">
-                        <h3>RETROPY</h3>
+                        <h3>RETROPY P9</h3>
                     </div>
                     <!-- Extrait de l'article -->
                     <div class="card-excerpt">
-                        <p>Affiche un look dynamique même quand tu te détends. Cette chaussure Retropy E5 adidas junior réinvente un modèle d'athlétisme des 80's pour aujourd'hui. Son look moderne et fun va avec toutes les tenues possibles et imaginables. La semelle intermédiaire BOOST est si confortable que tu ne pourras bientôt plus t'en passer.</p>
+                        <p>Enfile-la et prépare-toi à voyager dans le temps. Mixant une silhouette running des 80's avec des détails haute performance des années 2000, cette chaussure Retropy 9 est le résultat de décennies d'histoire d'adidas. La tige en textile et suède est combinée à une semelle intermédiaire Boost dynamique pour offrir confort et style, parée pour te propulser dans la décennie à venir et au-delà.</p>
                     </div>
         
                 </div>
@@ -73,7 +80,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="Page produit homme.html">
+            <a href="Dossier page produit/New Balance ML725.html">
                 <!-- Image à la une -->
                 <div class="card-image"><img src="Images/Sneakers page Homme/New Balance ML725 2.webp" alt="Orange" /></div>
                 <!-- Fin de l'image à la une -->
@@ -88,7 +95,7 @@
         
                     <!-- Titre de l'article -->
                     <div class="card-title">
-                        <h3>ML725 2</h3>
+                        <h3>ML725</h3>
                     </div>
                     <!-- Extrait de l'article -->
                     <div class="card-excerpt">
@@ -100,7 +107,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="">
+            <a href="Dossier page produit/Timberland SPRINT TREKKER SUPER.html">
                 <!-- Image à la une -->
                 <div class="card-image"><img src="Images/Sneakers page Homme/Timberland SPRINT TREKKER SUPER.webp" alt="Orange" /></div>
                 <!-- Fin de l'image à la une -->
@@ -127,7 +134,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="">
+            <a href="Dossier page produit/Converse RUN STAR HIKE SEASONAL COLOR.html">
                 <!-- Image à la une -->
                 <div class="card-image"><img src="Images/Sneakers page Homme/Converse RUN STAR HIKE SEASONAL COLOR UNISEX.webp" alt="Orange" /></div>
                 <!-- Fin de l'image à la une -->
@@ -187,42 +194,46 @@
 
     <!-- début du footer, à reprendre sur chaque base qui en a un -->
     <footer>
-        <div class="footer">    
+        <div class="footer">
             <div class="paiement">
-                <figure><img src="https://img.icons8.com/ios-filled/100/null/paypal.png"/></figure>
-                <figure><img src="https://img.icons8.com/ios-filled/100/null/visa.png"/></figure>
-                <figure><img src="https://img.icons8.com/ios-filled/100/null/mastercard.png"/></figure>
-                <figure><img src="https://img.icons8.com/ios-filled/100/null/apple-pay.png"/></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/paypal.png" /></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/visa.png" /></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/mastercard.png" /></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/apple-pay.png" /></figure>
             </div>
             <div class="social_contact">
                 <div class="socials">
-                    <div class="p"><p>Suivez nous</p></div>
-                        <div class="social1">
-                            <a href="https://www.tiktok.com/fr/" class="tiktok"><img src="https://img.icons8.com/ios-filled/50/null/tiktok--v1.png"/></a>
-                            <a href="https://www.facebook.com/" class="fb"><img src="https://img.icons8.com/ios-filled/50/null/facebook--v1.png"/></a>
-                        </div>
-                        <div class="social2">
-                            <a href="https://twitter.com/?lang=fr" class="twitter"><img src="https://img.icons8.com/ios-filled/50/null/twitter-squared.png"/></a>
-                            <a href="https://www.instagram.com/" class="insta"><img src="https://img.icons8.com/ios-filled/50/null/instagram-new--v1.png"/></a>
-                        </div>
+                    <div class="social1">
+                        <a href="https://www.tiktok.com/fr/" class="tiktok"><img
+                                src="https://img.icons8.com/ios-filled/50/null/tiktok--v1.png" /></a>
+                        <a href="https://www.facebook.com/" class="fb"><img
+                                src="https://img.icons8.com/ios-filled/50/null/facebook--v1.png" /></a>
+                    </div>
+                    <div class="social2">
+                        <a href="https://twitter.com/?lang=fr" class="twitter"><img
+                                src="https://img.icons8.com/ios-filled/50/null/twitter-squared.png" /></a>
+                        <a href="https://www.instagram.com/" class="insta"><img
+                                src="https://img.icons8.com/ios-filled/50/null/instagram-new--v1.png" /></a>
+                    </div>
                 </div>
                 <div class="newletter">
                     <h1>LA NEWSLETTER</h1>
                     <div class="mailinput">
-                        <input type="mail" placeholder="Entrez votre adresse mail"size="100px" >
+                        <input type="mail" placeholder="Entrez votre adresse mail" size="100px">
                         <button>Ok</button>
                     </div>
                     <p>Recevez toutes nos offres promotionnelles et dernières actualités</p>
                 </div>
                 <div class="contact">
                     <div class="contactin">
-                        <a href="Contact+map.html"><img src="https://img.icons8.com/ios-filled/50/null/marker.png"/></a>
-                    <p>Notre point de vente<br>
-                    xxxxxxx<br>
-                    4 rue des Saules<br>
-                    59000, Lille</p>
+                        <a href="Contact+map.html"><img
+                                src="https://img.icons8.com/ios-filled/50/null/marker.png" /></a>
+                        <p>Notre point de vente<br>
+                            xxxxxxx<br>
+                            4 rue des Saules<br>
+                            59000, Lille</p>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="cgv">
@@ -230,7 +241,7 @@
                     <p>
                         Termes et conditions<br>
                         Confidentialités et cookies<br>
-                        Droit en matières de confidentialités  
+                        Droit en matières de confidentialités
                     </p>
                 </div>
                 <div class="cgv2">
@@ -256,5 +267,8 @@
         </div>
     </footer>
     <!-- fin du footer -->
+
+    <script src="search.js"></script>
 </body>
+
 </html>

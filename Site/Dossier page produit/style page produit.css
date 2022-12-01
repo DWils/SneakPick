@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0px;
+    font-family: Avenir, sans-serif;
 }
 
 /*style du header */
@@ -11,7 +12,7 @@
 }
 .container{
     height: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 130px;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
@@ -19,7 +20,8 @@
     position: relative;
 
 }
-.searchbar{
+/* SEARCHBAR */
+.searchbar {
     display: flex;
     background: lightgray;
     border-radius: 37px;
@@ -27,25 +29,64 @@
     height: 35px;
     border-left: 30;
     justify-content: space-between;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
+    position: sticky;
+    top: 0px;
 }
-.searchbar input{ 
+.searchcontainer ul {
+    list-style-type: none;
+}
+.searchcontainer ul li {
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.searchcontainer a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px;
+}
+.searchcontainer a:hover {
+    color: deepskyblue;
+}
+#search-list {
+    box-shadow: 5px #CCC;
+    background-color: transparent;
+    position: absolute;
+    width: auto;
+    z-index: 1000;
+}
+#search-list li {
+    float: none;
+    width: auto;
+    text-align: left;
+}
+
+.searchbar input {
     width: 250px;
     height: 20px;
     align-self: center;
     border-radius: 37px;
     padding-left: 5px;
-    border : none;
+    border: none;
     outline: none;
     text-align: left;
 }
-.searchbar button{
-    align-self: center; 
+
+.searchbar button {
+    align-self: center;
     background: none;
     border: none;
     margin-right: 10px;
-    margin-top:5px ;
+    margin-top: 5px;
 }
+
+.searchbar button:hover {
+    cursor: pointer;
+}
+/* FIN SEARCHBAR */
 .menu{
     color: black;
     z-index: 1;
@@ -115,10 +156,11 @@
 }
 
 .product-image-slider img{
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
     background: var(--bg-grey);
     padding: 6px;
+    object-fit: contain;
     cursor: pointer;
 }
 

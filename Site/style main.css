@@ -21,6 +21,8 @@
     position: relative;
 }
 
+
+/* SEARCHBAR */
 .searchbar {
     display: flex;
     background: lightgray;
@@ -29,7 +31,39 @@
     height: 35px;
     border-left: 30;
     justify-content: space-between;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
+    position: sticky;
+    top: 0px;
+}
+.searchcontainer ul {
+    list-style-type: none;
+}
+.searchcontainer ul li {
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.searchcontainer a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px;
+}
+.searchcontainer a:hover {
+    color: deepskyblue;
+}
+#search-list {
+    box-shadow: 5px #CCC;
+    background-color: transparent;
+    position: absolute;
+    width: auto;
+    z-index: 1000;
+}
+#search-list li {
+    float: none;
+    width: auto;
+    text-align: left;
 }
 
 .searchbar input {
@@ -50,6 +84,12 @@
     margin-right: 10px;
     margin-top: 5px;
 }
+
+.searchbar button:hover {
+    cursor: pointer;
+}
+/* FIN SEARCHBAR */
+
 
 .menu {
     color: black;
@@ -439,7 +479,11 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 80%;
+    background-color: lightgrey;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    min-width: 65%;
 }
 
 .bloccontact h1 {
@@ -490,16 +534,21 @@
     flex-direction: column;
     text-align: center;
     margin-bottom: 50px;
+    background: lightgrey;
+    border-radius: 15px;
+    min-width: 65%;
 }
 
 .divtext textarea {
-    min-width: 650px;
-    padding: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
     outline: none;
     resize: none;
     background: whitesmoke;
     border-radius: 10px;
+    min-width: 95%;
 }
 
 .divtext .submit {
@@ -523,10 +572,14 @@
     text-align: center;
     align-items: center;
     max-width: 50%;
+    background: lightgray;
+    border-radius: 15px;
+    min-width: 65%;
 }
 
 .divmap iframe {
     margin-bottom: 25px;
+    min-width: 100%;
 }
 
 /* fin partie page contact */
@@ -1026,6 +1079,10 @@ img:nth-child(5) {
     justify-content: space-around;
 }
 
+.blocboutoncarousel a {
+    text-decoration: none;
+    color: white;
+}
 .boutonhomme {
     display: flex;
     border: 1px solid black;

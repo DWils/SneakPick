@@ -14,7 +14,7 @@
 .container {
     height: 70px;
     margin-bottom: 130px;
-    padding:0px;
+    padding: 0px;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
@@ -35,24 +35,29 @@
     position: sticky;
     top: 0px;
 }
+
 .searchcontainer ul {
     list-style-type: none;
 }
+
 .searchcontainer ul li {
     float: left;
     width: 100%;
     text-align: center;
     position: relative;
 }
+
 .searchcontainer a {
     display: block;
     text-decoration: none;
     color: black;
     padding: 5px 0px;
 }
+
 .searchcontainer a:hover {
     color: deepskyblue;
 }
+
 #search-list {
     box-shadow: 5px #CCC;
     background-color: transparent;
@@ -60,6 +65,7 @@
     width: auto;
     z-index: 1000;
 }
+
 #search-list li {
     float: none;
     width: auto;
@@ -88,6 +94,7 @@
 .searchbar button:hover {
     cursor: pointer;
 }
+
 /* FIN SEARCHBAR */
 
 
@@ -107,20 +114,20 @@
 
 .backgroundslider {
     display: flex;
-    height:50%;
+    height: 60%;
     width: 100%;
     justify-content: space-between;
-    margin-bottom:10%;
-    border:10px solid lightgrey;
+    margin-bottom: 10%;
+    border: 10px solid lightgrey;
     background-color: lightgrey;
 }
 
 .slider {
     width: 800px;
-    height:500px;
+    height: 500px;
     overflow: hidden;
     margin: auto;
-    border:5px solid white;
+    border: 5px solid white;
 }
 
 .slides {
@@ -162,9 +169,9 @@
     }
 }
 
-#imgcarousel1{
+#imgcarousel1 {
     width: 800px;
-    height:500px;
+    height: 500px;
 }
 
 /* fin slider 1*/
@@ -173,11 +180,11 @@
 
 
 .slider2 {
-    width:400px;
-    height:600px;
+    width: 400px;
+    height: 600px;
     overflow: hidden;
     margin: auto;
-    border:5px solid white;
+    border: 5px solid white;
 }
 
 .slides2 {
@@ -189,7 +196,7 @@
     float: left;
 }
 
-@keyframes glisse{
+@keyframes glisse {
     0% {
         transform: translateX(0);
     }
@@ -219,9 +226,9 @@
     }
 }
 
-#imgcarousel2{
-    width:400px;
-    height:600px;
+#imgcarousel2 {
+    width: 400px;
+    height: 600px;
 }
 
 /* fin slider 2*/
@@ -715,7 +722,6 @@
     background-color: black;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
 }
 
 #imgbrand {
@@ -830,7 +836,6 @@ nav>ul li:hover .sous {
     display: flex;
     justify-content: space-around;
     margin: auto;
-    border: 1px solid black;
     height: 400px;
 }
 
@@ -876,7 +881,7 @@ nav>ul li:hover .sous {
     width: 400px;
     height: 300px;
     margin-top: 90px;
-    border: 2px solid black;
+
 }
 
 .carousel>img {
@@ -890,7 +895,7 @@ nav>ul li:hover .sous {
 #imgcarouselhomme {
     height: 300px;
     width: 400px;
-    border: 2px solid black;
+
 }
 
 img:nth-child(2) {
@@ -949,7 +954,7 @@ img:nth-child(5) {
     height: 300px;
     margin-top: 90px;
     margin-bottom: 150px;
-    border: 2px solid black;
+
 }
 
 .carousel2>img {
@@ -963,7 +968,7 @@ img:nth-child(5) {
 #imgcarouselfemme {
     height: 300px;
     width: 400px;
-    border: 2px solid black;
+
 }
 
 img:nth-child(2) {
@@ -1023,7 +1028,6 @@ img:nth-child(5) {
     height: 300px;
     margin-top: 90px;
     margin-bottom: 150px;
-    border: 2px solid black;
 }
 
 .carousel3>img {
@@ -1037,7 +1041,7 @@ img:nth-child(5) {
 #imgcarouselenfant {
     height: 300px;
     width: 400px;
-    border: 2px solid black;
+
 }
 
 img:nth-child(2) {
@@ -1062,7 +1066,6 @@ img:nth-child(5) {
 
 .blocboutoncarousel {
     display: flex;
-    border: 5px solid black;
     height: 80px;
     width: 100%;
     margin: auto;
@@ -1072,7 +1075,7 @@ img:nth-child(5) {
 
 .bloctitrecarousel {
     display: flex;
-    border: 1px solid black;
+    border: 10px solid black;
     margin: auto;
     height: 30px;
     width: 70%;
@@ -1083,9 +1086,10 @@ img:nth-child(5) {
     text-decoration: none;
     color: white;
 }
+
 .boutonhomme {
     display: flex;
-    border: 1px solid black;
+    border: 5px solid black;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
@@ -1095,9 +1099,15 @@ img:nth-child(5) {
     justify-content: center;
 }
 
+.boutonhomme:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+
 .boutonfemme {
     display: flex;
-    border: 1px solid black;
+    border: 5px solid black;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
@@ -1105,11 +1115,16 @@ img:nth-child(5) {
     background-color: black;
     width: 200px;
     justify-content: center;
+}
+
+.boutonfemme:hover {
+    background-color: lightblue;
+    cursor: pointer;
 }
 
 .boutonenfant {
     display: flex;
-    border: 1px solid black;
+    border: 5px solid black;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
@@ -1118,6 +1133,11 @@ img:nth-child(5) {
     width: 200px;
     justify-content: center;
 
+}
+
+.boutonenfant:hover {
+    background-color: lightblue;
+    cursor: pointer;
 }
 
 /* fin bouton carousel */
@@ -1148,12 +1168,13 @@ img:nth-child(5) {
     margin: 25px 15px;
     border-radius: 20px;
     border: 10px solid black;
+    margin-bottom: 150px;
 }
 
 .cardbottom:hover {
     transform: scale(60%);
     transition: 1s;
-    border-color: gold;
+    border-color: lightskyblue;
 
 }
 
@@ -1181,48 +1202,54 @@ img:nth-child(5) {
 
 .blocimagemodele {
     display: flex;
-    justify-content: space-around;
-    margin:auto;
-    margin-bottom: 10%;
-    border:10px solid black;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+    border: 10px solid lightgrey;
+    background-color: lightgrey;
 }
+
 
 #imgmodele1 {
     height: 500px;
-    width: 400px;
+    width: 350px;
+    border: 5px white solid;
 }
 
 #imgmodele2 {
     height: 500px;
     width: 700px;
+    border: 5px white solid;
 }
 
 #imgmodele3 {
     height: 500px;
-    width: 400px;
+    width: 350px;
+    border: 5px white solid;
 }
 
 /* fin bloc image modele 1*/
 
 /* debut image modele 2 */
 
-.blocimagemodele2{
+.blocimagemodele2 {
     display: flex;
-    justify-content:center;
-    margin:auto;
-    border:solid 10px black;
-    width:100%;
-    background-color: black;
+    justify-content: center;
+    margin: auto;
+
+    width: 100%;
+    background-color: li;
 }
 
-#imgmodele4{
-    height:650px;
-    width:500px
+#imgmodele4 {
+    height: 650px;
+    width: 500px
 }
 
-#imgmodele5{
-    height:650px;
-    width:1000px;
+#imgmodele5 {
+    height: 650px;
+    width: 1030px;
 }
 
 /* fin image modele 2 */
@@ -1232,18 +1259,19 @@ img:nth-child(5) {
 
 .barre2 {
     display: flex;
-    border: 10px solid lightgrey;
     width: 100%;
     justify-content: space-around;
     margin: auto;
     margin-bottom: 6%;
     padding: 10px;
     font-size: 15px;
+    background-color: rgb(245, 245, 245);
 
 }
 
 #pbarre2 {
-    size: 5px;
+    font-size: 17px;
+    font-weight: bold;
 
 }
 
@@ -1254,3 +1282,23 @@ img:nth-child(5) {
 }
 
 /* fin bloc infos livraison,paiement ... */
+
+/* debut titre du milieu */
+
+.bloctitredumilieu {
+    display: flex;
+    border: 5px solid lightgrey;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.titredumilieu {
+    display: flex;
+    border: 5px solid lightgrey;
+    border-radius: 100px;
+    justify-content: space-around;
+    margin: auto;
+    padding: 30px;
+    width: 30%;
+    background-color: white;
+}

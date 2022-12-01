@@ -30,10 +30,17 @@
                     </ul>
                 </nav>
             </div>
-            <div class="searchbar">
-                <button type="submit"><span class="material-icons">search</span></button>
-                <input type="text" placeholder="Search...">
-            </div>
+            <!-- searchbar -->
+            <div class="searchcontainer">
+                <div class="searchbar">
+                    <button type="submit"><span class="material-icons">search</span></button>
+                    <input type="text" id="searchbar" placeholder="Search...">
+                </div>
+                <div id="result-search">
+                    <ul id="search-list"></ul>
+                </div>
+            </div> 
+            <!-- ********* -->
             <div class="icons">
                 <a href="Page Mes renseignements.html" class="account_circle"><span class="material-icons">account_circle</span></a>
                 <a href="favoris.html" class="favorite"><span class="material-icons">favorite</span></a>
@@ -46,7 +53,7 @@
     <!-- Partie page homme/femme/enfant -->  
     <div class="cardcontainer">
         <div class="card">
-            <a href="">
+            <a href="Dossier page produit/Adidas Originals FORUM BOLD.html">
                 <!-- Image à la une -->
                 <div class="card-image"><img src="Images/Sneakers page Femme/adidas Originals FORUM BOLD.webp" alt="Orange" /></div>
                 <!-- Fin de l'image à la une -->
@@ -73,7 +80,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="">
+            <a href="Dossier page produit/New Balance GS327 UNISEX.html">
                 <!-- Image à la une -->
                 <div class="card-image"><img src="Images/Sneackers page enfant/New Balance GS327 UNISEX.webp" alt="Orange" /></div>
                 <!-- Fin de l'image à la une -->
@@ -100,7 +107,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="">
+            <a href="Dossier page produit/Nike Sportswear AIR FORCE 1.html">
                 <!-- Image à la une -->
                 <div class="card-image"><img src="Images/Sneackers page enfant/Nike Sportswear AIR FORCE 1.webp" alt="Orange" /></div>
                 <!-- Fin de l'image à la une -->
@@ -127,7 +134,7 @@
             </a>
         </div>
         <div class="card">
-            <a href="Page produit enfant.html">
+            <a href="Dossier page produit/Skechers MICROSPEC MAX.html">
                 <!-- Image à la une -->
                 <div class="card-image"><img src="Images/Sneackers page enfant/Skechers MICROSPEC MAX.webp" alt="Orange" /></div>
                 <!-- Fin de l'image à la une -->
@@ -187,24 +194,27 @@
 
     <!-- début du footer, à reprendre sur chaque base qui en a un -->
     <footer>
-        <div class="footer">    
+        <div class="footer">
             <div class="paiement">
-                <figure><img src="https://img.icons8.com/ios-filled/100/null/paypal.png"/></figure>
-                <figure><img src="https://img.icons8.com/ios-filled/100/null/visa.png"/></figure>
-                <figure><img src="https://img.icons8.com/ios-filled/100/null/mastercard.png"/></figure>
-                <figure><img src="https://img.icons8.com/ios-filled/100/null/apple-pay.png"/></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/paypal.png" /></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/visa.png" /></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/mastercard.png" /></figure>
+                <figure><img src="https://img.icons8.com/ios-filled/100/null/apple-pay.png" /></figure>
             </div>
             <div class="social_contact">
                 <div class="socials">
-                    <div class="p"><p>Suivez nous</p></div>
-                        <div class="social1">
-                            <a href="https://www.tiktok.com/fr/" class="tiktok"><img src="https://img.icons8.com/ios-filled/50/null/tiktok--v1.png"/></a>
-                            <a href="https://www.facebook.com/" class="fb"><img src="https://img.icons8.com/ios-filled/50/null/facebook--v1.png"/></a>
-                        </div>
-                        <div class="social2">
-                            <a href="https://twitter.com/?lang=fr" class="twitter"><img src="https://img.icons8.com/ios-filled/50/null/twitter-squared.png"/></a>
-                            <a href="https://www.instagram.com/" class="insta"><img src="https://img.icons8.com/ios-filled/50/null/instagram-new--v1.png"/></a>
-                        </div>
+                    <div class="social1">
+                        <a href="https://www.tiktok.com/fr/" class="tiktok"><img
+                                src="https://img.icons8.com/ios-filled/50/null/tiktok--v1.png" /></a>
+                        <a href="https://www.facebook.com/" class="fb"><img
+                                src="https://img.icons8.com/ios-filled/50/null/facebook--v1.png" /></a>
+                    </div>
+                    <div class="social2">
+                        <a href="https://twitter.com/?lang=fr" class="twitter"><img
+                                src="https://img.icons8.com/ios-filled/50/null/twitter-squared.png" /></a>
+                        <a href="https://www.instagram.com/" class="insta"><img
+                                src="https://img.icons8.com/ios-filled/50/null/instagram-new--v1.png" /></a>
+                    </div>
                 </div>
                 <div class="newletter">
                     <h1>LA NEWSLETTER</h1>
@@ -216,13 +226,14 @@
                 </div>
                 <div class="contact">
                     <div class="contactin">
-                        <a href="Contact+map.html"><img src="https://img.icons8.com/ios-filled/50/null/marker.png"/></a>
-                    <p>Notre point de vente<br>
-                    xxxxxxx<br>
-                    4 rue des Saules<br>
-                    59000, Lille</p>
+                        <a href="Contact+map.html"><img
+                                src="https://img.icons8.com/ios-filled/50/null/marker.png" /></a>
+                        <p>Notre point de vente<br>
+                            xxxxxxx<br>
+                            4 rue des Saules<br>
+                            59000, Lille</p>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="cgv">
@@ -230,7 +241,7 @@
                     <p>
                         Termes et conditions<br>
                         Confidentialités et cookies<br>
-                        Droit en matières de confidentialités  
+                        Droit en matières de confidentialités
                     </p>
                 </div>
                 <div class="cgv2">
@@ -256,5 +267,8 @@
         </div>
     </footer>
     <!-- fin du footer -->
+
+    <script src="search.js"></script>
 </body>
+
 </html>

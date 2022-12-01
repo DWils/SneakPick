@@ -128,28 +128,29 @@ h4 {
 }
 
 .gauche1 {
-    margin-right: 450px;
+padding-right: 50%;
 }
 
 .gauche2 {
-    margin-right: 450px;
+    padding-right: 48%;
 }
 
 .gauche3 {
-    margin-right: 450px;
+    padding-right: 60%;
 }
 
 .droite1 {
-    margin-left: 300px;
+
     margin-top: -27px;
+    padding-left: 60%;
 }
 
 .droite2 {
-    margin-left: 300px;
     margin-top: -27px;
+    padding-left: 56%;
 }
 
 .droite3 {
-    margin-left: 300px;
     margin-top: -27px;
+    padding-left: 45%;
 }

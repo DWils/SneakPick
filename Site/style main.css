@@ -367,7 +367,11 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 80%;
+    background-color: lightgrey;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    min-width: 65%;
 }
 
 .bloccontact h1 {
@@ -418,16 +422,21 @@
     flex-direction: column;
     text-align: center;
     margin-bottom: 50px;
+    background: lightgrey;
+    border-radius: 15px;
+    min-width: 65%;
 }
 
 .divtext textarea {
-    min-width: 650px;
-    padding: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
     outline: none;
     resize: none;
     background: whitesmoke;
     border-radius: 10px;
+    min-width: 95%;
 }
 
 .divtext .submit {
@@ -451,10 +460,14 @@
     text-align: center;
     align-items: center;
     max-width: 50%;
+    background: lightgray;
+    border-radius: 15px;
+    min-width: 65%;
 }
 
 .divmap iframe {
     margin-bottom: 25px;
+    min-width: 100%;
 }
 
 /* fin partie page contact */

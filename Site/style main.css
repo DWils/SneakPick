@@ -18,9 +18,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-    position: relative;
+    
 }
-
 
 /* SEARCHBAR */
 .searchbar {
@@ -39,25 +38,21 @@
 .searchcontainer ul {
     list-style-type: none;
 }
-
 .searchcontainer ul li {
     float: left;
     width: 100%;
     text-align: center;
     position: relative;
 }
-
 .searchcontainer a {
     display: block;
     text-decoration: none;
     color: black;
     padding: 5px 0px;
 }
-
 .searchcontainer a:hover {
     color: deepskyblue;
 }
-
 #search-list {
     box-shadow: 5px #CCC;
     background-color: transparent;
@@ -65,13 +60,11 @@
     width: auto;
     z-index: 1000;
 }
-
 #search-list li {
     float: none;
     width: auto;
     text-align: left;
 }
-
 .searchbar input {
     width: 250px;
     height: 20px;
@@ -82,7 +75,6 @@
     outline: none;
     text-align: left;
 }
-
 .searchbar button {
     align-self: center;
     background: none;
@@ -118,7 +110,6 @@
     width: 100%;
     justify-content: space-between;
     margin-bottom: 10%;
-    border: 10px solid lightgrey;
     background-color: lightgrey;
 }
 
@@ -126,7 +117,6 @@
     width: 800px;
     height: 500px;
     overflow: hidden;
-    margin: auto;
     border: 5px solid white;
 }
 
@@ -184,7 +174,7 @@
     height: 600px;
     overflow: hidden;
     margin: auto;
-    border: 5px solid white;
+
 }
 
 .slides2 {
@@ -235,11 +225,6 @@
 
 
 /* partie profil utilisateur et toutes les pages qui vont avec */
-
-.container {
-    display: flex;
-
-}
 
 /* bloc gauche */
 .bloc {
@@ -717,8 +702,7 @@
 .blackfridaybloc {
 
     display: flex;
-    border: 5px solid black;
-    width: 100%;
+
     background-color: black;
     margin-left: auto;
     margin-right: auto;
@@ -1261,9 +1245,8 @@ img:nth-child(5) {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin: auto;
     margin-bottom: 6%;
-    padding: 10px;
+    padding: 10px 0;
     font-size: 15px;
     background-color: rgb(245, 245, 245);
 

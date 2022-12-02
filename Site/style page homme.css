@@ -1,6 +1,6 @@
 /* Ceci est appliqué pour toute la page internet */
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0px;
     font-family: Avenir, sans-serif;
 }
@@ -10,6 +10,7 @@
     background-color: lightgrey;
     height: 70px;
 }
+
 .container{
     height: 70px;
     margin-bottom: 130px;
@@ -18,8 +19,8 @@
     justify-content: space-evenly;
     align-items: flex-end;
     position: relative;
-
 }
+
 /* SEARCHBAR */
 .searchbar {
     display: flex;
@@ -33,6 +34,7 @@
     position: sticky;
     top: 0px;
 }
+
 .searchcontainer ul {
     list-style-type: none;
 }

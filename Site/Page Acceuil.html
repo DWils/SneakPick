@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'acceuil</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style main.css">
 </head>
-
 <body>
-
     <!-- voilà pour la partie du header, à reprendre sur chaque page qui en a un -->
     <header>
         <div class="topcolor">
@@ -40,10 +36,17 @@
                     </ul>
                 </nav>
             </div>
-            <div class="searchbar">
-                <button type="submit"><span class="material-icons">search</span></button>
-                <input type="text" placeholder="Search...">
+            <!-- searchbar -->
+            <div class="searchcontainer">
+                <form class="searchbar">
+                    <button type="submit" id="searchbtn"><span class="material-icons">search</span></button>
+                    <input type="text" id="searchbar" placeholder="Search...">
+                </form>
+                <div id="result-search">
+                    <ul id="search-list"></ul>
+                </div>
             </div>
+            <!-- ********* -->
             <div class="icons">
                 <a href="Page Mes renseignements.html" class="account_circle"><span
                         class="material-icons">account_circle</span></a>
@@ -70,10 +73,11 @@
 
      <div class="blocimagemodele2">
 
-        <div class="imgmodele4"><img id="imgmodele4" src="../Site/Images/Sneakers page Homme/nike noel.jpg" /></div>
+        <div class="imgmodele4">
+            <img id="imgmodele4" src="../Site/Images/Sneakers page Homme/nike noel.jpg" />
+        </div>
         <div class="imgmodele5">
             <img id="imgmodele5" src="../Site/Images/Sneakers page Homme/sneakers noel.jpg"/>
-            
         </div>
 
     </div>
@@ -84,7 +88,7 @@
         <img id="imgbrand" src="../Site/Images/Sneakers panier & fav/marques.jpg" />
 
         <div class="pblackfridaytext">
-            <p id="idbf"> <span style="color:red"><strong>🎄 NOËL APPROCHE! 🎄</strong></span></br>
+            <p id="idbf"><span style="color:red"><strong>🎄 NOËL APPROCHE! 🎄</strong></span></br>
                 PROFITEZ DE NOS OFFRES SUR DES ARTICLES SELECTIONNES </br>
                 <span style="color:red"><strong>JUSQU'À -70%</strong></span>
             </p>
@@ -119,13 +123,11 @@
 
         <div class="slider">
             <div class="slides">
-                <div class="slide"><img id="imgcarousel1"
-                        src="Images/Bannière acceuil/dior x travis scott air jordan.jpg" alt=""></div>
-                <div class="slide"><img id="imgcarousel1"
-                        src="../Site/Images/Bannière acceuil/air jordan 1 off white.jpg" alt="">
+                <div class="slide"><img id="imgcarousel1" src="Images/Bannière acceuil/dior x travis scott air jordan.jpg" alt=""></div>
+                <div class="slide"><img id="imgcarousel1" src="../Site/Images/Bannière acceuil/air jordan 1 off white.jpg" alt="">
                 </div>
-                <div class="slide"><img id="imgcarousel1" src="Images/Bannière acceuil/PUMA x AMI Slipstream.jpg"
-                        alt=""></div>
+                <div class="slide"><img id="imgcarousel1" src="Images/Bannière acceuil/PUMA x AMI Slipstream.jpg" alt="">
+                    </div>
             </div>
         </div>
 
@@ -260,9 +262,6 @@
                     </div>
                     <div class="social_contact">
                         <div class="socials">
-                            <div class="p">
-                                <p>Suivez nous</p>
-                            </div>
                             <div class="social1">
                                 <a href="https://www.tiktok.com/fr/" class="tiktok"><img
                                         src="https://img.icons8.com/ios-filled/50/null/tiktok--v1.png" /></a>
@@ -327,7 +326,7 @@
                 </div>
             </footer>
             <!-- fin du footer -->
-            <script src="search.js"></script>
+<script src="search.js"></script>
 </body>
 
 </html>

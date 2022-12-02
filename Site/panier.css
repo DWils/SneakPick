@@ -111,13 +111,14 @@
 
 #blockpanier {
     display: flex;
-    border: 1px solid;
+    border: 3px solid black;
     border-radius: 30px;
     height: 300px;
     width: 90%;
     margin: auto;
     align-items: center;
     justify-content: space-around;
+    
 
 }
 
@@ -154,7 +155,7 @@
 }
 
 #navbarcodepromo {
-    border: 1px solid;
+    border: 2px solid black;
     display: flex;
     height: 30px;
     text-align: center;
@@ -193,6 +194,9 @@
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 #total {

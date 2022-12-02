@@ -90,6 +90,12 @@
     align-content: center;
     justify-content: space-around;
     text-align: center;
+    border:3px solid black;
+}
+
+.bloc1favoris p{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bloc2favoris {
@@ -103,8 +109,14 @@
     align-content: center;
     justify-content: space-around;
     text-align: center;
+    border:3px solid black;
 }
 
+
+.bloc2favoris p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 #yvypark {
     height: 200px;
